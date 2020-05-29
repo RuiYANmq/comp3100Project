@@ -223,7 +223,7 @@ class SystemInfo {
     }
 }
 
-public class PFClient {
+public class BFClient {
     private String bestType = null;
     private OutputStream out;
     private InputStream in;
