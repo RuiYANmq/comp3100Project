@@ -270,7 +270,7 @@ public class PFClient {
         send = server.getCNTJ();
         this.sendMsg(send);
         recv = this.recvMsg();
-       
+        
         int state = server.getState();
         int fit = server.fit(job);
         int fitMemory = server.fitMemory(job);
@@ -281,11 +281,11 @@ public class PFClient {
                    (fitMemory < bestMemoryFit)) {
             bestFit = fit;
             minAvail = availTime;
-            //biggerMemory=server.getMemory();
+            bestMemoryFit=fitMemory;
             select = server;
             find = true;
           }
-      
+       
         } else if (type.available(job)) {
             fit = type.computeFitness(job);
             if (fit < wstFit) {
