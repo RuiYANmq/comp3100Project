@@ -282,7 +282,6 @@ public class BFClient {
                   ((bestFit == fit) &&(availTime == minAvail)&& (fitMemory < bestMemoryFit))) {
             bestFit = fit;
             minAvail = availTime;
-            biggerMemory=server.getMemory();
             select = server;
             find = true;
           }
