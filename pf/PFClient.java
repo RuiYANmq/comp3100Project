@@ -223,7 +223,7 @@ class SystemInfo {
     }
 }
 
-public class BFClient {
+public class PFClient {
     private String bestType = null;
     private OutputStream out;
     private InputStream in;
@@ -270,8 +270,7 @@ public class BFClient {
         send = server.getCNTJ();
         this.sendMsg(send);
         recv = this.recvMsg();
-        //if(job.getID()==19)
-         //System.out.printf("server: %s, avail:%b, fit:%d\n", server.showAll(), server.available(job), server.fit(job));
+       
         int state = server.getState();
         int fit = server.fit(job);
         int fitMemory = server.fitMemory(job);
@@ -282,11 +281,11 @@ public class BFClient {
                    (fitMemory < bestMemoryFit)) {
             bestFit = fit;
             minAvail = availTime;
-            biggerMemory=server.getMemory();
+            //biggerMemory=server.getMemory();
             select = server;
             find = true;
           }
-        //} else if ((state % 2 == 1) && type.available(job)) {
+      
         } else if (type.available(job)) {
             fit = type.computeFitness(job);
             if (fit < wstFit) {
