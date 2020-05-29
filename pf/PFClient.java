@@ -278,10 +278,11 @@ public class BFClient {
         int fitDisk = server.fitDisk(job);
         if(server.available(job)) {
           int availTime = server.getAvailTime();
-          if (fit < bestFit || (bestFit == fit && availTime < minAvail)||
-                  ((bestFit == fit) &&(availTime == minAvail)&& (fitMemory < bestMemoryFit))) {
+          if (fit < bestFit || (availTime < minAvail)||
+                   (fitMemory < bestMemoryFit)) {
             bestFit = fit;
             minAvail = availTime;
+            biggerMemory=server.getMemory();
             select = server;
             find = true;
           }
