@@ -1,0 +1,164 @@
+# ds-sim server 6-Mar, 2020 @ MQ
+# Server-side simulator started with './ds-server -c ./configs/config_simple1.xml'
+# Waiting for connection to port 50000 of IP address 127.0.0.1
+# Welcome  comp335!
+# The system information can be read from 'system.xml'
+t:         24 job     0 (waiting) on # 0 of server tiny (booting) SCHEDULED
+t:         77 job     1 (waiting) on # 1 of server tiny (booting) SCHEDULED
+t:         80 job     2 (waiting) on # 0 of server medium (booting) SCHEDULED
+t:         84 job     0 on # 0 of server tiny RUNNING
+t:         84 job     3 (waiting) on # 0 of server small (booting) SCHEDULED
+t:        124 job     4 (waiting) on # 1 of server medium (booting) SCHEDULED
+t:        137 job     1 on # 1 of server tiny RUNNING
+t:        140 job     2 on # 0 of server medium RUNNING
+t:        144 job     3 on # 0 of server small RUNNING
+t:        145 job     2 on # 0 of server medium COMPLETED
+t:        148 job     5 (running) on # 0 of server medium (active) SCHEDULED
+t:        148 job     5 on # 0 of server medium RUNNING
+t:        157 job     5 on # 0 of server medium COMPLETED
+t:        161 job     6 (waiting) on # 0 of server large (booting) SCHEDULED
+t:        183 job     1 on # 1 of server tiny COMPLETED
+t:        184 job     4 on # 1 of server medium RUNNING
+t:        186 job     7 (waiting) on # 1 of server large (booting) SCHEDULED
+t:        195 job     8 (waiting) on # 2 of server large (booting) SCHEDULED
+t:        209 job     9 (waiting) on # 0 of server large (booting) SCHEDULED
+t:        214 job    10 (waiting) on # 3 of server large (booting) SCHEDULED
+t:        217 job    11 (waiting) on # 2 of server large (booting) SCHEDULED
+t:        221 job     6 on # 0 of server large RUNNING
+t:        221 job     9 on # 0 of server large RUNNING
+t:        226 job    12 (waiting) on # 4 of server large (booting) SCHEDULED
+t:        227 job    13 (waiting) on # 5 of server large (booting) SCHEDULED
+t:        229 job    14 (waiting) on # 3 of server large (booting) SCHEDULED
+t:        233 job    15 (waiting) on # 6 of server large (booting) SCHEDULED
+t:        236 job    16 (running) on # 0 of server medium (active) SCHEDULED
+t:        236 job    16 on # 0 of server medium RUNNING
+t:        240 job    17 (waiting) on # 5 of server large (booting) SCHEDULED
+t:        242 job    18 (waiting) on # 7 of server large (booting) SCHEDULED
+t:        245 job    19 (waiting) on # 6 of server large (booting) SCHEDULED
+t:        246 job     7 on # 1 of server large RUNNING
+t:        253 job    20 (waiting) on # 4 of server large (booting) SCHEDULED
+t:        255 job     8 on # 2 of server large RUNNING
+t:        255 job    11 on # 2 of server large RUNNING
+t:        256 job    21 (waiting) on # 8 of server large (booting) SCHEDULED
+t:        258 job    11 on # 2 of server large COMPLETED
+t:        260 job    22 (waiting) on # 9 of server large (booting) SCHEDULED
+t:        263 job    23 (running) on # 2 of server large (active) SCHEDULED
+t:        263 job    23 on # 2 of server large RUNNING
+t:        266 job    24 (waiting) on # 2 of server medium (booting) SCHEDULED
+t:        267 job    25 (waiting) on #10 of server large (booting) SCHEDULED
+t:        268 job    23 on # 2 of server large COMPLETED
+t:        272 job    26 (running) on # 2 of server large (active) SCHEDULED
+t:        272 job    26 on # 2 of server large RUNNING
+t:        274 job    10 on # 3 of server large RUNNING
+t:        274 job    14 on # 3 of server large RUNNING
+t:        275 job    27 (waiting) on # 3 of server medium (booting) SCHEDULED
+t:        279 job    14 on # 3 of server large COMPLETED
+t:        279 job    28 (waiting) on # 4 of server medium (booting) SCHEDULED
+t:        281 job    29 (waiting) on #11 of server large (booting) SCHEDULED
+t:        286 job    12 on # 4 of server large RUNNING
+t:        286 job    20 on # 4 of server large RUNNING
+t:        286 job    30 (waiting) on #12 of server large (booting) SCHEDULED
+t:        287 job    13 on # 5 of server large RUNNING
+t:        287 job    17 on # 5 of server large RUNNING
+t:        288 job    13 on # 5 of server large COMPLETED
+t:        290 job    31 (running) on # 5 of server large (active) SCHEDULED
+t:        290 job    31 on # 5 of server large RUNNING
+t:        293 job    15 on # 6 of server large RUNNING
+t:        293 job    19 on # 6 of server large RUNNING
+t:        296 job    15 on # 6 of server large COMPLETED
+t:        297 job    31 on # 5 of server large COMPLETED
+t:        297 job    32 (running) on # 5 of server large (active) SCHEDULED
+t:        297 job    32 on # 5 of server large RUNNING
+t:        302 job    12 on # 4 of server large COMPLETED
+t:        302 job    18 on # 7 of server large RUNNING
+t:        309 job    33 (waiting) on # 3 of server medium (booting) SCHEDULED
+t:        314 job     6 on # 0 of server large COMPLETED
+t:        316 job    21 on # 8 of server large RUNNING
+t:        320 job    22 on # 9 of server large RUNNING
+t:        321 job    34 (running) on # 9 of server large (active) SCHEDULED
+t:        321 job    34 on # 9 of server large RUNNING
+t:        326 job    24 on # 2 of server medium RUNNING
+t:        326 job    34 on # 9 of server large COMPLETED
+t:        327 job    25 on #10 of server large RUNNING
+t:        335 job    27 on # 3 of server medium RUNNING
+t:        335 job    33 on # 3 of server medium RUNNING
+t:        339 job    28 on # 4 of server medium RUNNING
+t:        341 job    29 on #11 of server large RUNNING
+t:        346 job    30 on #12 of server large RUNNING
+t:        346 job    35 (running) on # 9 of server large (active) SCHEDULED
+t:        346 job    35 on # 9 of server large RUNNING
+t:        349 job    35 on # 9 of server large COMPLETED
+t:        357 job    36 (running) on # 5 of server large (active) SCHEDULED
+t:        357 job    36 on # 5 of server large RUNNING
+t:        358 job    26 on # 2 of server large COMPLETED
+t:        382 job    37 (running) on # 9 of server large (active) SCHEDULED
+t:        382 job    37 on # 9 of server large RUNNING
+t:        383 job    10 on # 3 of server large COMPLETED
+t:        386 job    20 on # 4 of server large COMPLETED
+t:        393 job    38 (running) on #10 of server large (active) SCHEDULED
+t:        393 job    38 on #10 of server large RUNNING
+t:        401 job    38 on #10 of server large COMPLETED
+t:        409 job    39 (running) on #10 of server large (active) SCHEDULED
+t:        409 job    39 on #10 of server large RUNNING
+t:        449 job    40 (running) on # 2 of server large (active) SCHEDULED
+t:        449 job    40 on # 2 of server large RUNNING
+t:        457 job    40 on # 2 of server large COMPLETED
+t:        464 job    41 (running) on # 6 of server large (active) SCHEDULED
+t:        464 job    41 on # 6 of server large RUNNING
+t:        468 job    21 on # 8 of server large COMPLETED
+t:        471 job    29 on #11 of server large COMPLETED
+t:        487 job    22 on # 9 of server large COMPLETED
+t:        501 job    42 (running) on # 5 of server large (active) SCHEDULED
+t:        501 job    42 on # 5 of server large RUNNING
+t:        510 job    18 on # 7 of server large COMPLETED
+t:        512 job    24 on # 2 of server medium COMPLETED
+t:        513 job    43 (running) on # 2 of server large (active) SCHEDULED
+t:        513 job    43 on # 2 of server large RUNNING
+t:        519 job    37 on # 9 of server large COMPLETED
+t:        521 job    43 on # 2 of server large COMPLETED
+t:        534 job    19 on # 6 of server large COMPLETED
+t:        540 job    39 on #10 of server large COMPLETED
+t:        553 job    44 (running) on #10 of server large (active) SCHEDULED
+t:        553 job    44 on #10 of server large RUNNING
+t:        564 job    42 on # 5 of server large COMPLETED
+t:        576 job    45 (running) on # 2 of server large (active) SCHEDULED
+t:        576 job    45 on # 2 of server large RUNNING
+t:        581 job     9 on # 0 of server large COMPLETED
+t:        592 job    41 on # 6 of server large COMPLETED
+t:        627 job    46 (running) on # 5 of server large (active) SCHEDULED
+t:        627 job    46 on # 5 of server large RUNNING
+t:        631 job    46 on # 5 of server large COMPLETED
+t:        641 job    47 (running) on # 5 of server large (active) SCHEDULED
+t:        641 job    47 on # 5 of server large RUNNING
+t:        643 job    47 on # 5 of server large COMPLETED
+t:        690 job    48 (running) on # 2 of server medium (active) SCHEDULED
+t:        690 job    48 on # 2 of server medium RUNNING
+t:        693 job    48 on # 2 of server medium COMPLETED
+t:        746 job    49 (running) on # 5 of server large (active) SCHEDULED
+t:        746 job    49 on # 5 of server large RUNNING
+t:        809 job    44 on #10 of server large COMPLETED
+t:        928 job     0 on # 0 of server tiny COMPLETED
+t:        982 job     7 on # 1 of server large COMPLETED
+t:       1164 job    16 on # 0 of server medium COMPLETED
+t:       1273 job    32 on # 5 of server large COMPLETED
+t:       1377 job     3 on # 0 of server small COMPLETED
+t:       1495 job     4 on # 1 of server medium COMPLETED
+t:       1685 job    45 on # 2 of server large COMPLETED
+t:       2003 job    36 on # 5 of server large COMPLETED
+t:      14007 job    28 on # 4 of server medium COMPLETED
+t:      18877 job    27 on # 3 of server medium COMPLETED
+t:      24300 job    17 on # 5 of server large COMPLETED
+t:      28147 job    49 on # 5 of server large COMPLETED
+t:      88549 job    30 on #12 of server large COMPLETED
+t:      91549 job     8 on # 2 of server large COMPLETED
+t:      94055 job    33 on # 3 of server medium COMPLETED
+t:      98684 job    25 on #10 of server large COMPLETED
+# ---------------------------------------------------------------------------
+# 2 tiny servers used with a utilisation of 52.91 at the cost of $0.05
+# 1 small servers used with a utilisation of 100.00 at the cost of $0.07
+# 5 medium servers used with a utilisation of 61.38 at the cost of $21.24
+# 13 large servers used with a utilisation of 24.50 at the cost of $273.95
+# =============================== [ Overall ] ===============================
+# actual simulation end time: 98684
+# total #servers used: 21, avg utilisation: 39.58 and total cost: $295.31
+# avg waiting time: 21, avg exec time: 6572 and avg turnaround time: 6594
