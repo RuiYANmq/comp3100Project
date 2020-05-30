@@ -276,8 +276,12 @@ public class PFClient {
         int fitMemory = server.fitMemory(job);
         int fitDisk = server.fitDisk(job);
         if(server.available(job)) {
+            if (!find) {
+                select = server;
+                find = true;
+            }
           int availTime = server.getAvailTime();
-            if ((fit < bestFit)||(availTime < minAvail)||(fitMemory < bestMemoryFit)) {
+            if ((fit < bestFit)&&(availTime < minAvail)&&(fitMemory < bestMemoryFit)) {
             bestFit = fit;
             minAvail = availTime;
             bestMemoryFit = fitMemory;
