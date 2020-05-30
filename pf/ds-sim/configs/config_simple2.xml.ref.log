@@ -1,0 +1,1668 @@
+# ds-sim server 6-Mar, 2020 @ MQ
+# Server-side simulator started with './ds-server -c ./configs/config_simple2.xml'
+# Waiting for connection to port 50000 of IP address 127.0.0.1
+# Welcome  comp335!
+# The system information can be read from 'system.xml'
+t:         48 job     0 (waiting) on # 0 of server tiny (booting) SCHEDULED
+t:         71 job     1 (waiting) on # 0 of server medium (booting) SCHEDULED
+t:        108 job     0 on # 0 of server tiny RUNNING
+t:        114 job     2 (waiting) on # 0 of server large (booting) SCHEDULED
+t:        131 job     1 on # 0 of server medium RUNNING
+t:        147 job     3 (waiting) on # 1 of server large (booting) SCHEDULED
+t:        155 job     4 (waiting) on # 0 of server xlarge (booting) SCHEDULED
+t:        160 job     5 (waiting) on # 1 of server xlarge (booting) SCHEDULED
+t:        174 job     2 on # 0 of server large RUNNING
+t:        174 job     6 (waiting) on # 2 of server large (booting) SCHEDULED
+t:        179 job     0 on # 0 of server tiny COMPLETED
+t:        198 job     7 (running) on # 0 of server medium (active) SCHEDULED
+t:        198 job     7 on # 0 of server medium RUNNING
+t:        207 job     3 on # 1 of server large RUNNING
+t:        211 job     8 (waiting) on # 3 of server large (booting) SCHEDULED
+t:        215 job     4 on # 0 of server xlarge RUNNING
+t:        220 job     5 on # 1 of server xlarge RUNNING
+t:        220 job     9 (waiting) on # 4 of server large (booting) SCHEDULED
+t:        222 job     7 on # 0 of server medium COMPLETED
+t:        224 job    10 (waiting) on # 2 of server xlarge (booting) SCHEDULED
+t:        225 job    11 (waiting) on # 3 of server xlarge (booting) SCHEDULED
+t:        227 job    12 (running) on # 0 of server medium (active) SCHEDULED
+t:        227 job    12 on # 0 of server medium RUNNING
+t:        228 job     4 on # 0 of server xlarge COMPLETED
+t:        233 job    13 (running) on # 1 of server xlarge (active) SCHEDULED
+t:        233 job    13 on # 1 of server xlarge RUNNING
+t:        234 job     6 on # 2 of server large RUNNING
+t:        236 job    14 (running) on # 0 of server large (active) SCHEDULED
+t:        236 job    14 on # 0 of server large RUNNING
+t:        240 job     1 on # 0 of server medium COMPLETED
+t:        240 job    15 (running) on # 0 of server xlarge (active) SCHEDULED
+t:        240 job    15 on # 0 of server xlarge RUNNING
+t:        241 job    16 (running) on # 0 of server xlarge (active) SCHEDULED
+t:        241 job    16 on # 0 of server xlarge RUNNING
+t:        246 job    17 (waiting) on # 4 of server xlarge (booting) SCHEDULED
+t:        249 job    18 (waiting) on # 3 of server xlarge (booting) SCHEDULED
+t:        251 job    19 (waiting) on # 4 of server xlarge (booting) SCHEDULED
+t:        261 job    20 (waiting) on # 5 of server xlarge (booting) SCHEDULED
+t:        262 job    21 (waiting) on # 5 of server large (booting) SCHEDULED
+t:        266 job    22 (waiting) on # 4 of server xlarge (booting) SCHEDULED
+t:        270 job    23 (waiting) on # 6 of server large (booting) SCHEDULED
+t:        271 job     8 on # 3 of server large RUNNING
+t:        272 job    24 (waiting) on # 2 of server xlarge (booting) SCHEDULED
+t:        275 job     8 on # 3 of server large COMPLETED
+t:        276 job    25 (running) on # 1 of server xlarge (active) SCHEDULED
+t:        276 job    25 on # 1 of server xlarge RUNNING
+t:        279 job    26 (running) on # 3 of server large (active) SCHEDULED
+t:        279 job    26 on # 3 of server large RUNNING
+t:        280 job     9 on # 4 of server large RUNNING
+t:        284 job    10 on # 2 of server xlarge RUNNING
+t:        284 job    24 on # 2 of server xlarge RUNNING
+t:        284 job    27 (waiting) on # 6 of server xlarge (booting) SCHEDULED
+t:        285 job    11 on # 3 of server xlarge RUNNING
+t:        285 job    18 on # 3 of server xlarge RUNNING
+t:        285 job    28 (waiting) on # 6 of server xlarge (booting) SCHEDULED
+t:        291 job    26 on # 3 of server large COMPLETED
+t:        292 job    29 (waiting) on # 7 of server xlarge (booting) SCHEDULED
+t:        294 job    30 (waiting) on # 8 of server xlarge (booting) SCHEDULED
+t:        297 job    31 (waiting) on # 9 of server xlarge (booting) SCHEDULED
+t:        299 job     6 on # 2 of server large COMPLETED
+t:        301 job    24 on # 2 of server xlarge COMPLETED
+t:        301 job    32 (waiting) on # 6 of server xlarge (booting) SCHEDULED
+t:        304 job    18 on # 3 of server xlarge COMPLETED
+t:        306 job    17 on # 4 of server xlarge RUNNING
+t:        306 job    19 on # 4 of server xlarge RUNNING
+t:        306 job    22 on # 4 of server xlarge RUNNING
+t:        311 job    33 (waiting) on # 8 of server xlarge (booting) SCHEDULED
+t:        315 job    34 (waiting) on #10 of server xlarge (booting) SCHEDULED
+t:        319 job    35 (running) on # 0 of server medium (active) SCHEDULED
+t:        319 job    35 on # 0 of server medium RUNNING
+t:        320 job    25 on # 1 of server xlarge COMPLETED
+t:        320 job    36 (waiting) on # 8 of server xlarge (booting) SCHEDULED
+t:        321 job    20 on # 5 of server xlarge RUNNING
+t:        322 job    21 on # 5 of server large RUNNING
+t:        324 job    20 on # 5 of server xlarge COMPLETED
+t:        324 job    37 (running) on # 5 of server xlarge (active) SCHEDULED
+t:        324 job    37 on # 5 of server xlarge RUNNING
+t:        326 job    38 (waiting) on # 8 of server xlarge (booting) SCHEDULED
+t:        330 job    23 on # 6 of server large RUNNING
+t:        331 job    39 (running) on # 5 of server xlarge (active) SCHEDULED
+t:        331 job    39 on # 5 of server xlarge RUNNING
+t:        334 job    40 (waiting) on #11 of server xlarge (booting) SCHEDULED
+t:        339 job    41 (running) on # 2 of server large (active) SCHEDULED
+t:        339 job    41 on # 2 of server large RUNNING
+t:        341 job    42 (running) on # 2 of server large (active) SCHEDULED
+t:        341 job    42 on # 2 of server large RUNNING
+t:        343 job    39 on # 5 of server xlarge COMPLETED
+t:        344 job    27 on # 6 of server xlarge RUNNING
+t:        344 job    28 on # 6 of server xlarge RUNNING
+t:        344 job    32 on # 6 of server xlarge RUNNING
+t:        344 job    43 (waiting) on #12 of server xlarge (booting) SCHEDULED
+t:        347 job    15 on # 0 of server xlarge COMPLETED
+t:        349 job    44 (waiting) on # 9 of server xlarge (booting) SCHEDULED
+t:        352 job    29 on # 7 of server xlarge RUNNING
+t:        354 job    30 on # 8 of server xlarge RUNNING
+t:        354 job    33 on # 8 of server xlarge RUNNING
+t:        354 job    36 on # 8 of server xlarge RUNNING
+t:        354 job    38 on # 8 of server xlarge RUNNING
+t:        354 job    45 (waiting) on #13 of server xlarge (booting) SCHEDULED
+t:        357 job    31 on # 9 of server xlarge RUNNING
+t:        357 job    44 on # 9 of server xlarge RUNNING
+t:        357 job    46 (waiting) on #11 of server xlarge (booting) SCHEDULED
+t:        359 job    22 on # 4 of server xlarge COMPLETED
+t:        364 job    47 (waiting) on #11 of server xlarge (booting) SCHEDULED
+t:        366 job    29 on # 7 of server xlarge COMPLETED
+t:        371 job    28 on # 6 of server xlarge COMPLETED
+t:        371 job    44 on # 9 of server xlarge COMPLETED
+t:        374 job    48 (waiting) on #11 of server xlarge (booting) SCHEDULED
+t:        375 job    34 on #10 of server xlarge RUNNING
+t:        380 job    13 on # 1 of server xlarge COMPLETED
+t:        386 job     5 on # 1 of server xlarge COMPLETED
+t:        389 job    16 on # 0 of server xlarge COMPLETED
+t:        389 job    49 (waiting) on #11 of server xlarge (booting) SCHEDULED
+t:        394 job    14 on # 0 of server large COMPLETED
+t:        394 job    40 on #11 of server xlarge RUNNING
+t:        394 job    46 on #11 of server xlarge RUNNING
+t:        394 job    47 on #11 of server xlarge RUNNING
+t:        394 job    48 on #11 of server xlarge RUNNING
+t:        394 job    49 on #11 of server xlarge RUNNING
+t:        404 job    43 on #12 of server xlarge RUNNING
+t:        407 job    50 (running) on # 6 of server xlarge (active) SCHEDULED
+t:        407 job    50 on # 6 of server xlarge RUNNING
+t:        411 job    36 on # 8 of server xlarge COMPLETED
+t:        414 job    45 on #13 of server xlarge RUNNING
+t:        419 job    32 on # 6 of server xlarge COMPLETED
+t:        422 job    51 (running) on # 0 of server xlarge (active) SCHEDULED
+t:        422 job    51 on # 0 of server xlarge RUNNING
+t:        430 job    52 (running) on # 6 of server xlarge (active) SCHEDULED
+t:        430 job    52 on # 6 of server xlarge RUNNING
+t:        438 job    53 (running) on # 6 of server xlarge (active) SCHEDULED
+t:        438 job    53 on # 6 of server xlarge RUNNING
+t:        439 job    33 on # 8 of server xlarge COMPLETED
+t:        442 job    38 on # 8 of server xlarge COMPLETED
+t:        444 job    51 on # 0 of server xlarge COMPLETED
+t:        453 job    54 (running) on #10 of server xlarge (active) SCHEDULED
+t:        453 job    54 on #10 of server xlarge RUNNING
+t:        459 job    43 on #12 of server xlarge COMPLETED
+t:        462 job    37 on # 5 of server xlarge COMPLETED
+t:        469 job    17 on # 4 of server xlarge COMPLETED
+t:        473 job    23 on # 6 of server large COMPLETED
+t:        478 job    21 on # 5 of server large COMPLETED
+t:        480 job    46 on #11 of server xlarge COMPLETED
+t:        483 job    55 (running) on #11 of server xlarge (active) SCHEDULED
+t:        483 job    55 on #11 of server xlarge RUNNING
+t:        495 job    27 on # 6 of server xlarge COMPLETED
+t:        499 job    56 (running) on # 0 of server large (active) SCHEDULED
+t:        499 job    56 on # 0 of server large RUNNING
+t:        505 job    54 on #10 of server xlarge COMPLETED
+t:        514 job    41 on # 2 of server large COMPLETED
+t:        520 job    53 on # 6 of server xlarge COMPLETED
+t:        520 job    57 (running) on # 2 of server large (active) SCHEDULED
+t:        520 job    57 on # 2 of server large RUNNING
+t:        525 job    48 on #11 of server xlarge COMPLETED
+t:        542 job    58 (running) on #11 of server xlarge (active) SCHEDULED
+t:        542 job    58 on #11 of server xlarge RUNNING
+t:        562 job    45 on #13 of server xlarge COMPLETED
+t:        567 job    40 on #11 of server xlarge COMPLETED
+t:        569 job    59 (running) on # 0 of server large (active) SCHEDULED
+t:        569 job    59 on # 0 of server large RUNNING
+t:        571 job    60 (running) on # 0 of server large (active) SCHEDULED
+t:        571 job    60 on # 0 of server large RUNNING
+t:        593 job     9 on # 4 of server large COMPLETED
+t:        620 job    61 (running) on #10 of server xlarge (active) SCHEDULED
+t:        620 job    61 on #10 of server xlarge RUNNING
+t:        623 job    59 on # 0 of server large COMPLETED
+t:        637 job    12 on # 0 of server medium COMPLETED
+t:        645 job    55 on #11 of server xlarge COMPLETED
+t:        684 job    62 (running) on # 0 of server medium (active) SCHEDULED
+t:        684 job    62 on # 0 of server medium RUNNING
+t:        691 job    30 on # 8 of server xlarge COMPLETED
+t:        698 job    63 (running) on # 0 of server large (active) SCHEDULED
+t:        698 job    63 on # 0 of server large RUNNING
+t:        713 job    47 on #11 of server xlarge COMPLETED
+t:        734 job    60 on # 0 of server large COMPLETED
+t:        748 job    64 (running) on # 9 of server xlarge (active) SCHEDULED
+t:        748 job    64 on # 9 of server xlarge RUNNING
+t:        754 job    63 on # 0 of server large COMPLETED
+t:        813 job    65 (running) on # 0 of server large (active) SCHEDULED
+t:        813 job    65 on # 0 of server large RUNNING
+t:        857 job    66 (running) on #10 of server xlarge (active) SCHEDULED
+t:        857 job    66 on #10 of server xlarge RUNNING
+t:        862 job     2 on # 0 of server large COMPLETED
+t:        890 job    52 on # 6 of server xlarge COMPLETED
+t:        913 job     3 on # 1 of server large COMPLETED
+t:        938 job    67 (running) on # 0 of server large (active) SCHEDULED
+t:        938 job    67 on # 0 of server large RUNNING
+t:        974 job    68 (running) on # 3 of server xlarge (active) SCHEDULED
+t:        974 job    68 on # 3 of server xlarge RUNNING
+t:        997 job    19 on # 4 of server xlarge COMPLETED
+t:        997 job    69 (running) on # 3 of server xlarge (active) SCHEDULED
+t:        997 job    69 on # 3 of server xlarge RUNNING
+t:       1001 job    56 on # 0 of server large COMPLETED
+t:       1016 job    66 on #10 of server xlarge COMPLETED
+t:       1029 job    70 (running) on # 6 of server xlarge (active) SCHEDULED
+t:       1029 job    70 on # 6 of server xlarge RUNNING
+t:       1032 job    61 on #10 of server xlarge COMPLETED
+t:       1080 job    50 on # 6 of server xlarge COMPLETED
+t:       1097 job    68 on # 3 of server xlarge COMPLETED
+t:       1135 job    71 (running) on # 0 of server large (active) SCHEDULED
+t:       1135 job    71 on # 0 of server large RUNNING
+t:       1149 job    10 on # 2 of server xlarge COMPLETED
+t:       1154 job    49 on #11 of server xlarge COMPLETED
+t:       1165 job    72 (running) on #11 of server xlarge (active) SCHEDULED
+t:       1165 job    72 on #11 of server xlarge RUNNING
+t:       1173 job    34 on #10 of server xlarge COMPLETED
+t:       1175 job    73 (running) on # 0 of server xlarge (active) SCHEDULED
+t:       1175 job    73 on # 0 of server xlarge RUNNING
+t:       1177 job    72 on #11 of server xlarge COMPLETED
+t:       1242 job    74 (running) on # 6 of server xlarge (active) SCHEDULED
+t:       1242 job    74 on # 6 of server xlarge RUNNING
+t:       1267 job    58 on #11 of server xlarge COMPLETED
+t:       1290 job    75 (running) on # 6 of server xlarge (active) SCHEDULED
+t:       1290 job    75 on # 6 of server xlarge RUNNING
+t:       1312 job    71 on # 0 of server large COMPLETED
+t:       1325 job    75 on # 6 of server xlarge COMPLETED
+t:       1369 job    76 (running) on # 0 of server xlarge (active) SCHEDULED
+t:       1369 job    76 on # 0 of server xlarge RUNNING
+t:       1396 job    62 on # 0 of server medium COMPLETED
+t:       1396 job    65 on # 0 of server large COMPLETED
+t:       1407 job    77 (running) on # 1 of server large (active) SCHEDULED
+t:       1407 job    77 on # 1 of server large RUNNING
+t:       1447 job    77 on # 1 of server large COMPLETED
+t:       1466 job    78 (running) on # 0 of server medium (active) SCHEDULED
+t:       1466 job    78 on # 0 of server medium RUNNING
+t:       1528 job    79 (running) on # 1 of server xlarge (active) SCHEDULED
+t:       1528 job    79 on # 1 of server xlarge RUNNING
+t:       1564 job    80 (running) on # 2 of server xlarge (active) SCHEDULED
+t:       1564 job    80 on # 2 of server xlarge RUNNING
+t:       1583 job    81 (running) on # 0 of server xlarge (active) SCHEDULED
+t:       1583 job    81 on # 0 of server xlarge RUNNING
+t:       1601 job    79 on # 1 of server xlarge COMPLETED
+t:       1608 job    80 on # 2 of server xlarge COMPLETED
+t:       1617 job    81 on # 0 of server xlarge COMPLETED
+t:       1648 job    82 (running) on # 0 of server xlarge (active) SCHEDULED
+t:       1648 job    82 on # 0 of server xlarge RUNNING
+t:       1689 job    83 (running) on # 1 of server large (active) SCHEDULED
+t:       1689 job    83 on # 1 of server large RUNNING
+t:       1705 job    84 (running) on # 1 of server xlarge (active) SCHEDULED
+t:       1705 job    84 on # 1 of server xlarge RUNNING
+t:       1708 job    73 on # 0 of server xlarge COMPLETED
+t:       1747 job    85 (running) on # 2 of server xlarge (active) SCHEDULED
+t:       1747 job    85 on # 2 of server xlarge RUNNING
+t:       1771 job    83 on # 1 of server large COMPLETED
+t:       1793 job    86 (running) on # 4 of server xlarge (active) SCHEDULED
+t:       1793 job    86 on # 4 of server xlarge RUNNING
+t:       1799 job    87 (running) on # 0 of server large (active) SCHEDULED
+t:       1799 job    87 on # 0 of server large RUNNING
+t:       1816 job    87 on # 0 of server large COMPLETED
+t:       1827 job    84 on # 1 of server xlarge COMPLETED
+t:       1831 job    88 (running) on # 0 of server xlarge (active) SCHEDULED
+t:       1831 job    88 on # 0 of server xlarge RUNNING
+t:       1846 job    88 on # 0 of server xlarge COMPLETED
+t:       1853 job    89 (running) on # 0 of server xlarge (active) SCHEDULED
+t:       1853 job    89 on # 0 of server xlarge RUNNING
+t:       1861 job    90 (running) on # 1 of server xlarge (active) SCHEDULED
+t:       1861 job    90 on # 1 of server xlarge RUNNING
+t:       1885 job    91 (running) on # 1 of server xlarge (active) SCHEDULED
+t:       1885 job    91 on # 1 of server xlarge RUNNING
+t:       1903 job    92 (running) on # 5 of server xlarge (active) SCHEDULED
+t:       1903 job    92 on # 5 of server xlarge RUNNING
+t:       1907 job    93 (running) on # 6 of server xlarge (active) SCHEDULED
+t:       1907 job    93 on # 6 of server xlarge RUNNING
+t:       1922 job    94 (running) on # 7 of server xlarge (active) SCHEDULED
+t:       1922 job    94 on # 7 of server xlarge RUNNING
+t:       1925 job    95 (running) on # 1 of server large (active) SCHEDULED
+t:       1925 job    95 on # 1 of server large RUNNING
+t:       1926 job    85 on # 2 of server xlarge COMPLETED
+t:       1933 job    96 (running) on # 0 of server large (active) SCHEDULED
+t:       1933 job    96 on # 0 of server large RUNNING
+t:       1941 job    97 (running) on # 2 of server xlarge (active) SCHEDULED
+t:       1941 job    97 on # 2 of server xlarge RUNNING
+t:       1944 job    98 (running) on # 4 of server xlarge (active) SCHEDULED
+t:       1944 job    98 on # 4 of server xlarge RUNNING
+t:       1949 job    99 (running) on # 5 of server xlarge (active) SCHEDULED
+t:       1949 job    99 on # 5 of server xlarge RUNNING
+t:       1950 job    86 on # 4 of server xlarge COMPLETED
+t:       1950 job   100 (running) on # 4 of server xlarge (active) SCHEDULED
+t:       1950 job   100 on # 4 of server xlarge RUNNING
+t:       1952 job   101 (running) on # 4 of server xlarge (active) SCHEDULED
+t:       1952 job   101 on # 4 of server xlarge RUNNING
+t:       1957 job   102 (running) on # 3 of server large (active) SCHEDULED
+t:       1957 job   102 on # 3 of server large RUNNING
+t:       1958 job    94 on # 7 of server xlarge COMPLETED
+t:       1958 job   103 (running) on # 7 of server xlarge (active) SCHEDULED
+t:       1958 job   103 on # 7 of server xlarge RUNNING
+t:       1959 job   104 (running) on # 8 of server xlarge (active) SCHEDULED
+t:       1959 job   104 on # 8 of server xlarge RUNNING
+t:       1962 job   105 (running) on # 4 of server large (active) SCHEDULED
+t:       1962 job   105 on # 4 of server large RUNNING
+t:       1964 job   106 (running) on # 5 of server large (active) SCHEDULED
+t:       1964 job   106 on # 5 of server large RUNNING
+t:       1973 job   107 (running) on # 4 of server large (active) SCHEDULED
+t:       1973 job   107 on # 4 of server large RUNNING
+t:       1975 job   108 (running) on # 3 of server large (active) SCHEDULED
+t:       1975 job   108 on # 3 of server large RUNNING
+t:       1976 job   109 (running) on # 3 of server xlarge (active) SCHEDULED
+t:       1976 job   109 on # 3 of server xlarge RUNNING
+t:       1992 job    99 on # 5 of server xlarge COMPLETED
+t:       1992 job   110 (running) on # 3 of server xlarge (active) SCHEDULED
+t:       1992 job   110 on # 3 of server xlarge RUNNING
+t:       2012 job    93 on # 6 of server xlarge COMPLETED
+t:       2019 job   111 (running) on # 6 of server xlarge (active) SCHEDULED
+t:       2019 job   111 on # 6 of server xlarge RUNNING
+t:       2047 job   111 on # 6 of server xlarge COMPLETED
+t:       2053 job   112 (running) on # 6 of server xlarge (active) SCHEDULED
+t:       2053 job   112 on # 6 of server xlarge RUNNING
+t:       2061 job   113 (running) on # 5 of server large (active) SCHEDULED
+t:       2061 job   113 on # 5 of server large RUNNING
+t:       2063 job   113 on # 5 of server large COMPLETED
+t:       2068 job   102 on # 3 of server large COMPLETED
+t:       2068 job   114 (running) on # 3 of server xlarge (active) SCHEDULED
+t:       2068 job   114 on # 3 of server xlarge RUNNING
+t:       2075 job   107 on # 4 of server large COMPLETED
+t:       2089 job    74 on # 6 of server xlarge COMPLETED
+t:       2104 job    95 on # 1 of server large COMPLETED
+t:       2108 job   115 (running) on # 4 of server large (active) SCHEDULED
+t:       2108 job   115 on # 4 of server large RUNNING
+t:       2140 job   116 (running) on # 6 of server xlarge (active) SCHEDULED
+t:       2140 job   116 on # 6 of server xlarge RUNNING
+t:       2178 job   117 (running) on # 8 of server xlarge (active) SCHEDULED
+t:       2178 job   117 on # 8 of server xlarge RUNNING
+t:       2179 job   118 (running) on # 5 of server large (active) SCHEDULED
+t:       2179 job   118 on # 5 of server large RUNNING
+t:       2210 job    76 on # 0 of server xlarge COMPLETED
+t:       2220 job   119 (running) on #10 of server xlarge (active) SCHEDULED
+t:       2220 job   119 on #10 of server xlarge RUNNING
+t:       2229 job   120 (running) on # 8 of server xlarge (active) SCHEDULED
+t:       2229 job   120 on # 8 of server xlarge RUNNING
+t:       2230 job   112 on # 6 of server xlarge COMPLETED
+t:       2273 job   121 (running) on # 6 of server xlarge (active) SCHEDULED
+t:       2273 job   121 on # 6 of server xlarge RUNNING
+t:       2302 job    98 on # 4 of server xlarge COMPLETED
+t:       2307 job    96 on # 0 of server large COMPLETED
+t:       2307 job   101 on # 4 of server xlarge COMPLETED
+t:       2329 job   122 (running) on # 8 of server xlarge (active) SCHEDULED
+t:       2329 job   122 on # 8 of server xlarge RUNNING
+t:       2342 job   118 on # 5 of server large COMPLETED
+t:       2342 job   123 (running) on # 8 of server xlarge (active) SCHEDULED
+t:       2342 job   123 on # 8 of server xlarge RUNNING
+t:       2363 job   122 on # 8 of server xlarge COMPLETED
+t:       2378 job    82 on # 0 of server xlarge COMPLETED
+t:       2413 job   124 (running) on # 8 of server xlarge (active) SCHEDULED
+t:       2413 job   124 on # 8 of server xlarge RUNNING
+t:       2441 job   124 on # 8 of server xlarge COMPLETED
+t:       2451 job   123 on # 8 of server xlarge COMPLETED
+t:       2451 job   125 (running) on #11 of server xlarge (active) SCHEDULED
+t:       2451 job   125 on #11 of server xlarge RUNNING
+t:       2463 job    90 on # 1 of server xlarge COMPLETED
+t:       2532 job   126 (running) on # 5 of server large (active) SCHEDULED
+t:       2532 job   126 on # 5 of server large RUNNING
+t:       2545 job   110 on # 3 of server xlarge COMPLETED
+t:       2559 job   116 on # 6 of server xlarge COMPLETED
+t:       2566 job    91 on # 1 of server xlarge COMPLETED
+t:       2585 job   105 on # 4 of server large COMPLETED
+t:       2602 job   127 (running) on # 0 of server large (active) SCHEDULED
+t:       2602 job   127 on # 0 of server large RUNNING
+t:       2609 job    92 on # 5 of server xlarge COMPLETED
+t:       2622 job   109 on # 3 of server xlarge COMPLETED
+t:       2625 job   127 on # 0 of server large COMPLETED
+t:       2653 job   115 on # 4 of server large COMPLETED
+t:       2661 job   104 on # 8 of server xlarge COMPLETED
+t:       2667 job   103 on # 7 of server xlarge COMPLETED
+t:       2669 job    97 on # 2 of server xlarge COMPLETED
+t:       2677 job   114 on # 3 of server xlarge COMPLETED
+t:       2707 job   128 (running) on # 8 of server xlarge (active) SCHEDULED
+t:       2707 job   128 on # 8 of server xlarge RUNNING
+t:       2742 job   129 (running) on # 5 of server large (active) SCHEDULED
+t:       2742 job   129 on # 5 of server large RUNNING
+t:       2802 job   117 on # 8 of server xlarge COMPLETED
+t:       2817 job   129 on # 5 of server large COMPLETED
+t:       2819 job   130 (running) on # 5 of server large (active) SCHEDULED
+t:       2819 job   130 on # 5 of server large RUNNING
+t:       2841 job   100 on # 4 of server xlarge COMPLETED
+t:       2846 job   130 on # 5 of server large COMPLETED
+t:       2928 job   131 (running) on # 5 of server large (active) SCHEDULED
+t:       2928 job   131 on # 5 of server large RUNNING
+t:       3033 job   121 on # 6 of server xlarge COMPLETED
+t:       3036 job   132 (running) on # 0 of server large (active) SCHEDULED
+t:       3036 job   132 on # 0 of server large RUNNING
+t:       3112 job   120 on # 8 of server xlarge COMPLETED
+t:       3129 job   133 (running) on # 0 of server xlarge (active) SCHEDULED
+t:       3129 job   133 on # 0 of server xlarge RUNNING
+t:       3143 job   134 (running) on # 0 of server large (active) SCHEDULED
+t:       3143 job   134 on # 0 of server large RUNNING
+t:       3148 job   135 (running) on # 6 of server xlarge (active) SCHEDULED
+t:       3148 job   135 on # 6 of server xlarge RUNNING
+t:       3164 job   132 on # 0 of server large COMPLETED
+t:       3167 job   126 on # 5 of server large COMPLETED
+t:       3182 job   136 (running) on # 5 of server large (active) SCHEDULED
+t:       3182 job   136 on # 5 of server large RUNNING
+t:       3188 job   135 on # 6 of server xlarge COMPLETED
+t:       3196 job   136 on # 5 of server large COMPLETED
+t:       3263 job   134 on # 0 of server large COMPLETED
+t:       3328 job   137 (running) on # 0 of server large (active) SCHEDULED
+t:       3328 job   137 on # 0 of server large RUNNING
+t:       3335 job   138 (running) on # 6 of server xlarge (active) SCHEDULED
+t:       3335 job   138 on # 6 of server xlarge RUNNING
+t:       3343 job   139 (running) on # 3 of server xlarge (active) SCHEDULED
+t:       3343 job   139 on # 3 of server xlarge RUNNING
+t:       3490 job   140 (running) on # 5 of server large (active) SCHEDULED
+t:       3490 job   140 on # 5 of server large RUNNING
+t:       3574 job   141 (running) on # 3 of server xlarge (active) SCHEDULED
+t:       3574 job   141 on # 3 of server xlarge RUNNING
+t:       3600 job   141 on # 3 of server xlarge COMPLETED
+t:       3625 job   142 (running) on #11 of server xlarge (active) SCHEDULED
+t:       3625 job   142 on #11 of server xlarge RUNNING
+t:       3788 job   143 (running) on # 3 of server xlarge (active) SCHEDULED
+t:       3788 job   143 on # 3 of server xlarge RUNNING
+t:       3804 job   144 (running) on #11 of server xlarge (active) SCHEDULED
+t:       3804 job   144 on #11 of server xlarge RUNNING
+t:       3826 job   144 on #11 of server xlarge COMPLETED
+t:       3863 job   145 (running) on # 1 of server xlarge (active) SCHEDULED
+t:       3863 job   145 on # 1 of server xlarge RUNNING
+t:       3934 job   143 on # 3 of server xlarge COMPLETED
+t:       3955 job   138 on # 6 of server xlarge COMPLETED
+t:       3962 job   146 (running) on # 6 of server xlarge (active) SCHEDULED
+t:       3962 job   146 on # 6 of server xlarge RUNNING
+t:       4010 job   147 (running) on # 3 of server xlarge (active) SCHEDULED
+t:       4010 job   147 on # 3 of server xlarge RUNNING
+t:       4023 job   137 on # 0 of server large COMPLETED
+t:       4060 job   147 on # 3 of server xlarge COMPLETED
+t:       4203 job   148 (running) on # 3 of server xlarge (active) SCHEDULED
+t:       4203 job   148 on # 3 of server xlarge RUNNING
+t:       4228 job   139 on # 3 of server xlarge COMPLETED
+t:       4331 job   148 on # 3 of server xlarge COMPLETED
+t:       4337 job   142 on #11 of server xlarge COMPLETED
+t:       4361 job   149 (running) on # 0 of server large (active) SCHEDULED
+t:       4361 job   149 on # 0 of server large RUNNING
+t:       4450 job   150 (running) on # 3 of server xlarge (active) SCHEDULED
+t:       4450 job   150 on # 3 of server xlarge RUNNING
+t:       4463 job   150 on # 3 of server xlarge COMPLETED
+t:       4498 job   151 (running) on # 3 of server xlarge (active) SCHEDULED
+t:       4498 job   151 on # 3 of server xlarge RUNNING
+t:       4522 job   151 on # 3 of server xlarge COMPLETED
+t:       4653 job   152 (running) on # 3 of server xlarge (active) SCHEDULED
+t:       4653 job   152 on # 3 of server xlarge RUNNING
+t:       4702 job   152 on # 3 of server xlarge COMPLETED
+t:       4719 job   146 on # 6 of server xlarge COMPLETED
+t:       4795 job   153 (running) on # 6 of server xlarge (active) SCHEDULED
+t:       4795 job   153 on # 6 of server xlarge RUNNING
+t:       4928 job   149 on # 0 of server large COMPLETED
+t:       4951 job   154 (running) on # 6 of server xlarge (active) SCHEDULED
+t:       4951 job   154 on # 6 of server xlarge RUNNING
+t:       5106 job   155 (running) on # 0 of server large (active) SCHEDULED
+t:       5106 job   155 on # 0 of server large RUNNING
+t:       5130 job   156 (running) on # 3 of server xlarge (active) SCHEDULED
+t:       5130 job   156 on # 3 of server xlarge RUNNING
+t:       5151 job   156 on # 3 of server xlarge COMPLETED
+t:       5179 job   157 (running) on # 3 of server xlarge (active) SCHEDULED
+t:       5179 job   157 on # 3 of server xlarge RUNNING
+t:       5267 job   153 on # 6 of server xlarge COMPLETED
+t:       5314 job   158 (running) on # 6 of server xlarge (active) SCHEDULED
+t:       5314 job   158 on # 6 of server xlarge RUNNING
+t:       5344 job   158 on # 6 of server xlarge COMPLETED
+t:       5572 job   159 (running) on # 3 of server xlarge (active) SCHEDULED
+t:       5572 job   159 on # 3 of server xlarge RUNNING
+t:       5620 job   157 on # 3 of server xlarge COMPLETED
+t:       5668 job   160 (running) on #11 of server xlarge (active) SCHEDULED
+t:       5668 job   160 on #11 of server xlarge RUNNING
+t:       5726 job   159 on # 3 of server xlarge COMPLETED
+t:       5749 job   161 (running) on # 6 of server xlarge (active) SCHEDULED
+t:       5749 job   161 on # 6 of server xlarge RUNNING
+t:       5804 job   161 on # 6 of server xlarge COMPLETED
+t:       5906 job   162 (running) on # 2 of server xlarge (active) SCHEDULED
+t:       5906 job   162 on # 2 of server xlarge RUNNING
+t:       5964 job   155 on # 0 of server large COMPLETED
+t:       6137 job   163 (running) on # 0 of server large (active) SCHEDULED
+t:       6137 job   163 on # 0 of server large RUNNING
+t:       6225 job   160 on #11 of server xlarge COMPLETED
+t:       6392 job   164 (running) on # 3 of server xlarge (active) SCHEDULED
+t:       6392 job   164 on # 3 of server xlarge RUNNING
+t:       6434 job   165 (running) on # 6 of server xlarge (active) SCHEDULED
+t:       6434 job   165 on # 6 of server xlarge RUNNING
+t:       6462 job   165 on # 6 of server xlarge COMPLETED
+t:       6550 job   166 (running) on # 6 of server xlarge (active) SCHEDULED
+t:       6550 job   166 on # 6 of server xlarge RUNNING
+t:       6685 job   167 (running) on # 3 of server xlarge (active) SCHEDULED
+t:       6685 job   167 on # 3 of server xlarge RUNNING
+t:       6698 job   164 on # 3 of server xlarge COMPLETED
+t:       6752 job   168 (running) on # 3 of server xlarge (active) SCHEDULED
+t:       6752 job   168 on # 3 of server xlarge RUNNING
+t:       6779 job   169 (running) on # 3 of server xlarge (active) SCHEDULED
+t:       6779 job   169 on # 3 of server xlarge RUNNING
+t:       6805 job   169 on # 3 of server xlarge COMPLETED
+t:       6852 job   168 on # 3 of server xlarge COMPLETED
+t:       6924 job   166 on # 6 of server xlarge COMPLETED
+t:       7002 job   163 on # 0 of server large COMPLETED
+t:       7030 job   170 (running) on # 6 of server xlarge (active) SCHEDULED
+t:       7030 job   170 on # 6 of server xlarge RUNNING
+t:       7043 job   167 on # 3 of server xlarge COMPLETED
+t:       7061 job   170 on # 6 of server xlarge COMPLETED
+t:       7141 job   171 (running) on # 6 of server xlarge (active) SCHEDULED
+t:       7141 job   171 on # 6 of server xlarge RUNNING
+t:       7452 job   172 (running) on # 3 of server xlarge (active) SCHEDULED
+t:       7452 job   172 on # 3 of server xlarge RUNNING
+t:       7565 job   172 on # 3 of server xlarge COMPLETED
+t:       7693 job   171 on # 6 of server xlarge COMPLETED
+t:       7734 job   173 (running) on # 6 of server xlarge (active) SCHEDULED
+t:       7734 job   173 on # 6 of server xlarge RUNNING
+t:       7875 job   173 on # 6 of server xlarge COMPLETED
+t:       8000 job   174 (running) on # 6 of server xlarge (active) SCHEDULED
+t:       8000 job   174 on # 6 of server xlarge RUNNING
+t:       8075 job   175 (running) on # 3 of server xlarge (active) SCHEDULED
+t:       8075 job   175 on # 3 of server xlarge RUNNING
+t:       8097 job   175 on # 3 of server xlarge COMPLETED
+t:       8164 job   174 on # 6 of server xlarge COMPLETED
+t:       8224 job   176 (running) on # 0 of server large (active) SCHEDULED
+t:       8224 job   176 on # 0 of server large RUNNING
+t:       8368 job   176 on # 0 of server large COMPLETED
+t:       8448 job   177 (running) on # 6 of server xlarge (active) SCHEDULED
+t:       8448 job   177 on # 6 of server xlarge RUNNING
+t:       8620 job   178 (running) on # 3 of server xlarge (active) SCHEDULED
+t:       8620 job   178 on # 3 of server xlarge RUNNING
+t:       8713 job   178 on # 3 of server xlarge COMPLETED
+t:       8831 job   179 (running) on # 1 of server xlarge (active) SCHEDULED
+t:       8831 job   179 on # 1 of server xlarge RUNNING
+t:       8837 job   180 (running) on # 0 of server large (active) SCHEDULED
+t:       8837 job   180 on # 0 of server large RUNNING
+t:       8854 job   180 on # 0 of server large COMPLETED
+t:       8913 job   181 (running) on # 0 of server large (active) SCHEDULED
+t:       8913 job   181 on # 0 of server large RUNNING
+t:       9070 job   182 (running) on # 3 of server xlarge (active) SCHEDULED
+t:       9070 job   182 on # 3 of server xlarge RUNNING
+t:       9215 job   183 (running) on # 3 of server xlarge (active) SCHEDULED
+t:       9215 job   183 on # 3 of server xlarge RUNNING
+t:       9302 job   183 on # 3 of server xlarge COMPLETED
+t:       9367 job   181 on # 0 of server large COMPLETED
+t:       9454 job   184 (running) on # 3 of server xlarge (active) SCHEDULED
+t:       9454 job   184 on # 3 of server xlarge RUNNING
+t:       9563 job   185 (running) on # 3 of server xlarge (active) SCHEDULED
+t:       9563 job   185 on # 3 of server xlarge RUNNING
+t:       9595 job   184 on # 3 of server xlarge COMPLETED
+t:       9649 job   185 on # 3 of server xlarge COMPLETED
+t:       9805 job   186 (running) on # 4 of server xlarge (active) SCHEDULED
+t:       9805 job   186 on # 4 of server xlarge RUNNING
+t:       9924 job   182 on # 3 of server xlarge COMPLETED
+t:      10113 job   187 (running) on # 4 of server xlarge (active) SCHEDULED
+t:      10113 job   187 on # 4 of server xlarge RUNNING
+t:      10155 job   188 (running) on # 4 of server xlarge (active) SCHEDULED
+t:      10155 job   188 on # 4 of server xlarge RUNNING
+t:      10236 job   189 (running) on # 4 of server xlarge (active) SCHEDULED
+t:      10236 job   189 on # 4 of server xlarge RUNNING
+t:      10262 job   189 on # 4 of server xlarge COMPLETED
+t:      10362 job   190 (running) on # 4 of server xlarge (active) SCHEDULED
+t:      10362 job   190 on # 4 of server xlarge RUNNING
+t:      10438 job   190 on # 4 of server xlarge COMPLETED
+t:      10595 job   188 on # 4 of server xlarge COMPLETED
+t:      10731 job   191 (running) on # 0 of server large (active) SCHEDULED
+t:      10731 job   191 on # 0 of server large RUNNING
+t:      10763 job   191 on # 0 of server large COMPLETED
+t:      10847 job   192 (running) on # 4 of server xlarge (active) SCHEDULED
+t:      10847 job   192 on # 4 of server xlarge RUNNING
+t:      10914 job   193 (running) on # 0 of server large (active) SCHEDULED
+t:      10914 job   193 on # 0 of server large RUNNING
+t:      10947 job   187 on # 4 of server xlarge COMPLETED
+t:      11092 job   193 on # 0 of server large COMPLETED
+t:      11282 job   194 (running) on # 5 of server xlarge (active) SCHEDULED
+t:      11282 job   194 on # 5 of server xlarge RUNNING
+t:      11604 job   195 (running) on # 7 of server xlarge (active) SCHEDULED
+t:      11604 job   195 on # 7 of server xlarge RUNNING
+t:      11619 job   192 on # 4 of server xlarge COMPLETED
+t:      11940 job   196 (running) on # 5 of server xlarge (active) SCHEDULED
+t:      11940 job   196 on # 5 of server xlarge RUNNING
+t:      12160 job   197 (running) on # 5 of server xlarge (active) SCHEDULED
+t:      12160 job   197 on # 5 of server xlarge RUNNING
+t:      12185 job   198 (running) on #12 of server xlarge (active) SCHEDULED
+t:      12185 job   198 on #12 of server xlarge RUNNING
+t:      12218 job   197 on # 5 of server xlarge COMPLETED
+t:      12370 job   199 (running) on # 0 of server large (active) SCHEDULED
+t:      12370 job   199 on # 0 of server large RUNNING
+t:      12493 job   196 on # 5 of server xlarge COMPLETED
+t:      12499 job   199 on # 0 of server large COMPLETED
+t:      12509 job   106 on # 5 of server large COMPLETED
+t:      12762 job   200 (running) on # 0 of server large (active) SCHEDULED
+t:      12762 job   200 on # 0 of server large RUNNING
+t:      12767 job   200 on # 0 of server large COMPLETED
+t:      12988 job   201 (running) on # 5 of server xlarge (active) SCHEDULED
+t:      12988 job   201 on # 5 of server xlarge RUNNING
+t:      12991 job   201 on # 5 of server xlarge COMPLETED
+t:      13212 job   202 (running) on # 0 of server large (active) SCHEDULED
+t:      13212 job   202 on # 0 of server large RUNNING
+t:      13256 job   202 on # 0 of server large COMPLETED
+t:      13637 job   203 (running) on # 5 of server xlarge (active) SCHEDULED
+t:      13637 job   203 on # 5 of server xlarge RUNNING
+t:      13660 job   203 on # 5 of server xlarge COMPLETED
+t:      13739 job   204 (running) on # 5 of server xlarge (active) SCHEDULED
+t:      13739 job   204 on # 5 of server xlarge RUNNING
+t:      13770 job   204 on # 5 of server xlarge COMPLETED
+t:      14114 job   205 (running) on # 5 of server xlarge (active) SCHEDULED
+t:      14114 job   205 on # 5 of server xlarge RUNNING
+t:      14171 job   133 on # 0 of server xlarge COMPLETED
+t:      14285 job   205 on # 5 of server xlarge COMPLETED
+t:      14570 job   206 (running) on # 0 of server large (active) SCHEDULED
+t:      14570 job   206 on # 0 of server large RUNNING
+t:      14788 job   207 (running) on # 0 of server large (active) SCHEDULED
+t:      14788 job   207 on # 0 of server large RUNNING
+t:      14926 job   207 on # 0 of server large COMPLETED
+t:      15038 job   186 on # 4 of server xlarge COMPLETED
+t:      15172 job   208 (running) on # 0 of server large (active) SCHEDULED
+t:      15172 job   208 on # 0 of server large RUNNING
+t:      15174 job    42 on # 2 of server large COMPLETED
+t:      15243 job   206 on # 0 of server large COMPLETED
+t:      15382 job   209 (running) on # 0 of server large (active) SCHEDULED
+t:      15382 job   209 on # 0 of server large RUNNING
+t:      15389 job   209 on # 0 of server large COMPLETED
+t:      15685 job   210 (running) on # 0 of server large (active) SCHEDULED
+t:      15685 job   210 on # 0 of server large RUNNING
+t:      15991 job   208 on # 0 of server large COMPLETED
+t:      16069 job   210 on # 0 of server large COMPLETED
+t:      16159 job   211 (running) on # 2 of server large (active) SCHEDULED
+t:      16159 job   211 on # 2 of server large RUNNING
+t:      16316 job    78 on # 0 of server medium COMPLETED
+t:      16331 job   212 (running) on # 0 of server medium (active) SCHEDULED
+t:      16331 job   212 on # 0 of server medium RUNNING
+t:      16421 job   212 on # 0 of server medium COMPLETED
+t:      16479 job    70 on # 6 of server xlarge COMPLETED
+t:      16526 job   213 (running) on # 0 of server medium (active) SCHEDULED
+t:      16526 job   213 on # 0 of server medium RUNNING
+t:      16544 job   213 on # 0 of server medium COMPLETED
+t:      16562 job   211 on # 2 of server large COMPLETED
+t:      16959 job   214 (running) on # 0 of server large (active) SCHEDULED
+t:      16959 job   214 on # 0 of server large RUNNING
+t:      17260 job   215 (running) on # 0 of server medium (active) SCHEDULED
+t:      17260 job   215 on # 0 of server medium RUNNING
+t:      17365 job   215 on # 0 of server medium COMPLETED
+t:      17454 job   216 (running) on # 6 of server xlarge (active) SCHEDULED
+t:      17454 job   216 on # 6 of server xlarge RUNNING
+t:      17528 job   214 on # 0 of server large COMPLETED
+t:      17642 job   217 (running) on # 0 of server medium (active) SCHEDULED
+t:      17642 job   217 on # 0 of server medium RUNNING
+t:      17839 job   218 (running) on # 2 of server large (active) SCHEDULED
+t:      17839 job   218 on # 2 of server large RUNNING
+t:      18323 job   219 (running) on # 3 of server large (active) SCHEDULED
+t:      18323 job   219 on # 3 of server large RUNNING
+t:      18457 job   217 on # 0 of server medium COMPLETED
+t:      18572 job   218 on # 2 of server large COMPLETED
+t:      18579 job   220 (running) on # 0 of server medium (active) SCHEDULED
+t:      18579 job   220 on # 0 of server medium RUNNING
+t:      18763 job   221 (running) on # 0 of server large (active) SCHEDULED
+t:      18763 job   221 on # 0 of server large RUNNING
+t:      18933 job    31 on # 9 of server xlarge COMPLETED
+t:      19191 job   222 (running) on # 9 of server xlarge (active) SCHEDULED
+t:      19191 job   222 on # 9 of server xlarge RUNNING
+t:      19404 job   221 on # 0 of server large COMPLETED
+t:      19662 job   154 on # 6 of server xlarge COMPLETED
+t:      19675 job   223 (running) on # 2 of server large (active) SCHEDULED
+t:      19675 job   223 on # 2 of server large RUNNING
+t:      19762 job   224 (running) on # 0 of server large (active) SCHEDULED
+t:      19762 job   224 on # 0 of server large RUNNING
+t:      19878 job   224 on # 0 of server large COMPLETED
+t:      19964 job   225 (running) on # 0 of server large (active) SCHEDULED
+t:      19964 job   225 on # 0 of server large RUNNING
+t:      20416 job   226 (running) on # 0 of server large (active) SCHEDULED
+t:      20416 job   226 on # 0 of server large RUNNING
+t:      20531 job   225 on # 0 of server large COMPLETED
+t:      20569 job   226 on # 0 of server large COMPLETED
+t:      20603 job   227 (running) on # 0 of server large (active) SCHEDULED
+t:      20603 job   227 on # 0 of server large RUNNING
+t:      20617 job   227 on # 0 of server large COMPLETED
+t:      20706 job    11 on # 3 of server xlarge COMPLETED
+t:      20961 job   228 (running) on # 0 of server large (active) SCHEDULED
+t:      20961 job   228 on # 0 of server large RUNNING
+t:      21534 job   229 (running) on # 0 of server large (active) SCHEDULED
+t:      21534 job   229 on # 0 of server large RUNNING
+t:      21577 job   229 on # 0 of server large COMPLETED
+t:      21857 job   228 on # 0 of server large COMPLETED
+t:      22091 job   230 (running) on # 0 of server large (active) SCHEDULED
+t:      22091 job   230 on # 0 of server large RUNNING
+t:      22259 job   230 on # 0 of server large COMPLETED
+t:      22401 job   231 (running) on # 0 of server large (active) SCHEDULED
+t:      22401 job   231 on # 0 of server large RUNNING
+t:      22637 job   232 (running) on # 5 of server xlarge (active) SCHEDULED
+t:      22637 job   232 on # 5 of server xlarge RUNNING
+t:      22640 job   233 (running) on # 8 of server xlarge (active) SCHEDULED
+t:      22640 job   233 on # 8 of server xlarge RUNNING
+t:      22726 job   232 on # 5 of server xlarge COMPLETED
+t:      22777 job   234 (running) on # 0 of server large (active) SCHEDULED
+t:      22777 job   234 on # 0 of server large RUNNING
+t:      22880 job   235 (running) on # 5 of server xlarge (active) SCHEDULED
+t:      22880 job   235 on # 5 of server xlarge RUNNING
+t:      23002 job   235 on # 5 of server xlarge COMPLETED
+t:      23235 job   231 on # 0 of server large COMPLETED
+t:      23384 job   236 (running) on # 5 of server xlarge (active) SCHEDULED
+t:      23384 job   236 on # 5 of server xlarge RUNNING
+t:      23408 job   236 on # 5 of server xlarge COMPLETED
+t:      23609 job   234 on # 0 of server large COMPLETED
+t:      23812 job   237 (running) on # 0 of server large (active) SCHEDULED
+t:      23812 job   237 on # 0 of server large RUNNING
+t:      23820 job   237 on # 0 of server large COMPLETED
+t:      24207 job   238 (running) on # 4 of server xlarge (active) SCHEDULED
+t:      24207 job   238 on # 4 of server xlarge RUNNING
+t:      24400 job   239 (running) on # 0 of server large (active) SCHEDULED
+t:      24400 job   239 on # 0 of server large RUNNING
+t:      24728 job   240 (running) on # 0 of server large (active) SCHEDULED
+t:      24728 job   240 on # 0 of server large RUNNING
+t:      24740 job   240 on # 0 of server large COMPLETED
+t:      24761 job   125 on #11 of server xlarge COMPLETED
+t:      25170 job   241 (running) on # 0 of server large (active) SCHEDULED
+t:      25170 job   241 on # 0 of server large RUNNING
+t:      25297 job   241 on # 0 of server large COMPLETED
+t:      25802 job   242 (running) on # 5 of server xlarge (active) SCHEDULED
+t:      25802 job   242 on # 5 of server xlarge RUNNING
+t:      25830 job   243 (running) on # 0 of server large (active) SCHEDULED
+t:      25830 job   243 on # 0 of server large RUNNING
+t:      26129 job   233 on # 8 of server xlarge COMPLETED
+t:      26137 job   244 (running) on #12 of server xlarge (active) SCHEDULED
+t:      26137 job   244 on #12 of server xlarge RUNNING
+t:      26192 job   244 on #12 of server xlarge COMPLETED
+t:      26471 job   243 on # 0 of server large COMPLETED
+t:      26523 job   245 (running) on # 0 of server large (active) SCHEDULED
+t:      26523 job   245 on # 0 of server large RUNNING
+t:      26537 job   245 on # 0 of server large COMPLETED
+t:      27143 job   246 (running) on # 0 of server large (active) SCHEDULED
+t:      27143 job   246 on # 0 of server large RUNNING
+t:      27168 job   246 on # 0 of server large COMPLETED
+t:      27513 job   247 (running) on # 0 of server large (active) SCHEDULED
+t:      27513 job   247 on # 0 of server large RUNNING
+t:      27774 job   248 (running) on #12 of server xlarge (active) SCHEDULED
+t:      27774 job   248 on #12 of server xlarge RUNNING
+t:      28043 job   247 on # 0 of server large COMPLETED
+t:      28242 job   249 (running) on # 8 of server xlarge (active) SCHEDULED
+t:      28242 job   249 on # 8 of server xlarge RUNNING
+t:      28247 job   250 (running) on # 0 of server large (active) SCHEDULED
+t:      28247 job   250 on # 0 of server large RUNNING
+t:      28268 job   250 on # 0 of server large COMPLETED
+t:      28299 job   249 on # 8 of server xlarge COMPLETED
+t:      28520 job   248 on #12 of server xlarge COMPLETED
+t:      28783 job    67 on # 0 of server large COMPLETED
+t:      28924 job   251 (running) on #12 of server xlarge (active) SCHEDULED
+t:      28924 job   251 on #12 of server xlarge RUNNING
+t:      29300 job   162 on # 2 of server xlarge COMPLETED
+t:      29529 job   251 on #12 of server xlarge COMPLETED
+t:      29532 job   252 (running) on #12 of server xlarge (active) SCHEDULED
+t:      29532 job   252 on #12 of server xlarge RUNNING
+t:      29690 job   252 on #12 of server xlarge COMPLETED
+t:      29699 job   253 (running) on #12 of server xlarge (active) SCHEDULED
+t:      29699 job   253 on #12 of server xlarge RUNNING
+t:      29702 job   254 (running) on # 8 of server xlarge (active) SCHEDULED
+t:      29702 job   254 on # 8 of server xlarge RUNNING
+t:      29800 job   254 on # 8 of server xlarge COMPLETED
+t:      29878 job   253 on #12 of server xlarge COMPLETED
+t:      30375 job   255 (running) on #12 of server xlarge (active) SCHEDULED
+t:      30375 job   255 on #12 of server xlarge RUNNING
+t:      30390 job   255 on #12 of server xlarge COMPLETED
+t:      30592 job   256 (running) on #12 of server xlarge (active) SCHEDULED
+t:      30592 job   256 on #12 of server xlarge RUNNING
+t:      30593 job   256 on #12 of server xlarge COMPLETED
+t:      30601 job    89 on # 0 of server xlarge COMPLETED
+t:      31157 job   257 (running) on #12 of server xlarge (active) SCHEDULED
+t:      31157 job   257 on #12 of server xlarge RUNNING
+t:      31289 job   257 on #12 of server xlarge COMPLETED
+t:      31330 job   258 (running) on # 3 of server xlarge (active) SCHEDULED
+t:      31330 job   258 on # 3 of server xlarge RUNNING
+t:      31659 job   259 (running) on #12 of server xlarge (active) SCHEDULED
+t:      31659 job   259 on #12 of server xlarge RUNNING
+t:      31712 job   195 on # 7 of server xlarge COMPLETED
+t:      31745 job   260 (running) on # 8 of server xlarge (active) SCHEDULED
+t:      31745 job   260 on # 8 of server xlarge RUNNING
+t:      31816 job   259 on #12 of server xlarge COMPLETED
+t:      31818 job   260 on # 8 of server xlarge COMPLETED
+t:      32368 job   261 (running) on #12 of server xlarge (active) SCHEDULED
+t:      32368 job   261 on #12 of server xlarge RUNNING
+t:      32379 job   261 on #12 of server xlarge COMPLETED
+t:      33125 job   262 (running) on # 0 of server xlarge (active) SCHEDULED
+t:      33125 job   262 on # 0 of server xlarge RUNNING
+t:      33136 job   263 (running) on #12 of server xlarge (active) SCHEDULED
+t:      33136 job   263 on #12 of server xlarge RUNNING
+t:      33446 job   264 (running) on #12 of server xlarge (active) SCHEDULED
+t:      33446 job   264 on #12 of server xlarge RUNNING
+t:      33693 job   242 on # 5 of server xlarge COMPLETED
+t:      33709 job   265 (running) on # 5 of server xlarge (active) SCHEDULED
+t:      33709 job   265 on # 5 of server xlarge RUNNING
+t:      33765 job   263 on #12 of server xlarge COMPLETED
+t:      33825 job   265 on # 5 of server xlarge COMPLETED
+t:      34115 job   266 (running) on #12 of server xlarge (active) SCHEDULED
+t:      34115 job   266 on #12 of server xlarge RUNNING
+t:      34144 job   266 on #12 of server xlarge COMPLETED
+t:      34257 job   267 (running) on #12 of server xlarge (active) SCHEDULED
+t:      34257 job   267 on #12 of server xlarge RUNNING
+t:      34267 job   264 on #12 of server xlarge COMPLETED
+t:      34373 job   267 on #12 of server xlarge COMPLETED
+t:      34855 job   268 (running) on # 5 of server xlarge (active) SCHEDULED
+t:      34855 job   268 on # 5 of server xlarge RUNNING
+t:      35018 job   269 (running) on # 5 of server xlarge (active) SCHEDULED
+t:      35018 job   269 on # 5 of server xlarge RUNNING
+t:      35134 job   269 on # 5 of server xlarge COMPLETED
+t:      35397 job   268 on # 5 of server xlarge COMPLETED
+t:      35406 job   223 on # 2 of server large COMPLETED
+t:      35427 job   177 on # 6 of server xlarge COMPLETED
+t:      35441 job   270 (running) on # 5 of server xlarge (active) SCHEDULED
+t:      35441 job   270 on # 5 of server xlarge RUNNING
+t:      35791 job   271 (running) on # 2 of server large (active) SCHEDULED
+t:      35791 job   271 on # 2 of server large RUNNING
+t:      36339 job   270 on # 5 of server xlarge COMPLETED
+t:      36449 job   272 (running) on # 5 of server xlarge (active) SCHEDULED
+t:      36449 job   272 on # 5 of server xlarge RUNNING
+t:      36536 job   272 on # 5 of server xlarge COMPLETED
+t:      36801 job   238 on # 4 of server xlarge COMPLETED
+t:      36855 job    64 on # 9 of server xlarge COMPLETED
+t:      37248 job   273 (running) on # 5 of server xlarge (active) SCHEDULED
+t:      37248 job   273 on # 5 of server xlarge RUNNING
+t:      37282 job   273 on # 5 of server xlarge COMPLETED
+t:      37597 job   274 (running) on # 5 of server xlarge (active) SCHEDULED
+t:      37597 job   274 on # 5 of server xlarge RUNNING
+t:      37740 job   274 on # 5 of server xlarge COMPLETED
+t:      37976 job   220 on # 0 of server medium COMPLETED
+t:      38313 job   275 (running) on # 5 of server xlarge (active) SCHEDULED
+t:      38313 job   275 on # 5 of server xlarge RUNNING
+t:      38790 job   276 (running) on # 0 of server medium (active) SCHEDULED
+t:      38790 job   276 on # 0 of server medium RUNNING
+t:      39104 job   275 on # 5 of server xlarge COMPLETED
+t:      39494 job   276 on # 0 of server medium COMPLETED
+t:      39556 job   262 on # 0 of server xlarge COMPLETED
+t:      39628 job   277 (running) on # 0 of server medium (active) SCHEDULED
+t:      39628 job   277 on # 0 of server medium RUNNING
+t:      40228 job   278 (running) on # 5 of server xlarge (active) SCHEDULED
+t:      40228 job   278 on # 5 of server xlarge RUNNING
+t:      40233 job   278 on # 5 of server xlarge COMPLETED
+t:      40893 job   279 (running) on # 5 of server xlarge (active) SCHEDULED
+t:      40893 job   279 on # 5 of server xlarge RUNNING
+t:      40904 job   279 on # 5 of server xlarge COMPLETED
+t:      41326 job    69 on # 3 of server xlarge COMPLETED
+t:      41578 job   145 on # 1 of server xlarge COMPLETED
+t:      41596 job   280 (running) on # 5 of server xlarge (active) SCHEDULED
+t:      41596 job   280 on # 5 of server xlarge RUNNING
+t:      42167 job   281 (running) on #12 of server xlarge (active) SCHEDULED
+t:      42167 job   281 on #12 of server xlarge RUNNING
+t:      42175 job   281 on #12 of server xlarge COMPLETED
+t:      42360 job   282 (running) on #12 of server xlarge (active) SCHEDULED
+t:      42360 job   282 on #12 of server xlarge RUNNING
+t:      43204 job   283 (running) on #12 of server xlarge (active) SCHEDULED
+t:      43204 job   283 on #12 of server xlarge RUNNING
+t:      43235 job   283 on #12 of server xlarge COMPLETED
+t:      43322 job   131 on # 5 of server large COMPLETED
+t:      43400 job   284 (running) on # 9 of server xlarge (active) SCHEDULED
+t:      43400 job   284 on # 9 of server xlarge RUNNING
+t:      43436 job   284 on # 9 of server xlarge COMPLETED
+t:      43881 job   285 (running) on #12 of server xlarge (active) SCHEDULED
+t:      43881 job   285 on #12 of server xlarge RUNNING
+t:      44428 job   119 on #10 of server xlarge COMPLETED
+t:      44611 job   286 (running) on # 9 of server xlarge (active) SCHEDULED
+t:      44611 job   286 on # 9 of server xlarge RUNNING
+t:      44634 job   286 on # 9 of server xlarge COMPLETED
+t:      44704 job   287 (running) on # 9 of server xlarge (active) SCHEDULED
+t:      44704 job   287 on # 9 of server xlarge RUNNING
+t:      44718 job   287 on # 9 of server xlarge COMPLETED
+t:      44779 job   285 on #12 of server xlarge COMPLETED
+t:      45278 job   288 (running) on #12 of server xlarge (active) SCHEDULED
+t:      45278 job   288 on #12 of server xlarge RUNNING
+t:      45456 job   179 on # 1 of server xlarge COMPLETED
+t:      45610 job   289 (running) on # 9 of server xlarge (active) SCHEDULED
+t:      45610 job   289 on # 9 of server xlarge RUNNING
+t:      45635 job   289 on # 9 of server xlarge COMPLETED
+t:      46024 job   288 on #12 of server xlarge COMPLETED
+t:      46153 job   290 (running) on #12 of server xlarge (active) SCHEDULED
+t:      46153 job   290 on #12 of server xlarge RUNNING
+t:      46841 job   290 on #12 of server xlarge COMPLETED
+t:      46842 job   291 (running) on #12 of server xlarge (active) SCHEDULED
+t:      46842 job   291 on #12 of server xlarge RUNNING
+t:      46923 job   291 on #12 of server xlarge COMPLETED
+t:      47057 job   219 on # 3 of server large COMPLETED
+t:      47704 job   292 (running) on #12 of server xlarge (active) SCHEDULED
+t:      47704 job   292 on #12 of server xlarge RUNNING
+t:      47736 job   292 on #12 of server xlarge COMPLETED
+t:      47782 job   194 on # 5 of server xlarge COMPLETED
+t:      48489 job   293 (running) on #12 of server xlarge (active) SCHEDULED
+t:      48489 job   293 on #12 of server xlarge RUNNING
+t:      48538 job   294 (running) on # 9 of server xlarge (active) SCHEDULED
+t:      48538 job   294 on # 9 of server xlarge RUNNING
+t:      48709 job   294 on # 9 of server xlarge COMPLETED
+t:      48994 job   293 on #12 of server xlarge COMPLETED
+t:      49179 job   295 (running) on #12 of server xlarge (active) SCHEDULED
+t:      49179 job   295 on #12 of server xlarge RUNNING
+t:      49632 job   296 (running) on # 9 of server xlarge (active) SCHEDULED
+t:      49632 job   296 on # 9 of server xlarge RUNNING
+t:      49742 job   295 on #12 of server xlarge COMPLETED
+t:      49798 job   297 (running) on # 9 of server xlarge (active) SCHEDULED
+t:      49798 job   297 on # 9 of server xlarge RUNNING
+t:      49823 job   297 on # 9 of server xlarge COMPLETED
+t:      50392 job   296 on # 9 of server xlarge COMPLETED
+t:      50606 job   298 (running) on #12 of server xlarge (active) SCHEDULED
+t:      50606 job   298 on #12 of server xlarge RUNNING
+t:      50628 job   298 on #12 of server xlarge COMPLETED
+t:      51367 job   299 (running) on #12 of server xlarge (active) SCHEDULED
+t:      51367 job   299 on #12 of server xlarge RUNNING
+t:      51400 job   299 on #12 of server xlarge COMPLETED
+t:      51462 job   300 (running) on # 9 of server xlarge (active) SCHEDULED
+t:      51462 job   300 on # 9 of server xlarge RUNNING
+t:      51874 job   216 on # 6 of server xlarge COMPLETED
+t:      52298 job   222 on # 9 of server xlarge COMPLETED
+t:      52366 job   301 (running) on # 5 of server xlarge (active) SCHEDULED
+t:      52366 job   301 on # 5 of server xlarge RUNNING
+t:      52438 job   301 on # 5 of server xlarge COMPLETED
+t:      53036 job   302 (running) on # 9 of server xlarge (active) SCHEDULED
+t:      53036 job   302 on # 9 of server xlarge RUNNING
+t:      53543 job   303 (running) on # 3 of server large (active) SCHEDULED
+t:      53543 job   303 on # 3 of server large RUNNING
+t:      53778 job   302 on # 9 of server xlarge COMPLETED
+t:      53885 job   303 on # 3 of server large COMPLETED
+t:      53902 job   304 (running) on # 9 of server xlarge (active) SCHEDULED
+t:      53902 job   304 on # 9 of server xlarge RUNNING
+t:      54438 job   304 on # 9 of server xlarge COMPLETED
+t:      54713 job   305 (running) on # 3 of server large (active) SCHEDULED
+t:      54713 job   305 on # 3 of server large RUNNING
+t:      55294 job   306 (running) on # 0 of server large (active) SCHEDULED
+t:      55294 job   306 on # 0 of server large RUNNING
+t:      55295 job   306 on # 0 of server large COMPLETED
+t:      55410 job   307 (running) on # 0 of server large (active) SCHEDULED
+t:      55410 job   307 on # 0 of server large RUNNING
+t:      55459 job   305 on # 3 of server large COMPLETED
+t:      55538 job   307 on # 0 of server large COMPLETED
+t:      55922 job   308 (running) on # 0 of server xlarge (active) SCHEDULED
+t:      55922 job   308 on # 0 of server xlarge RUNNING
+t:      55946 job   309 (running) on # 3 of server large (active) SCHEDULED
+t:      55946 job   309 on # 3 of server large RUNNING
+t:      55948 job   309 on # 3 of server large COMPLETED
+t:      56125 job   310 (running) on #12 of server xlarge (active) SCHEDULED
+t:      56125 job   310 on #12 of server xlarge RUNNING
+t:      56516 job   311 (running) on # 9 of server xlarge (active) SCHEDULED
+t:      56516 job   311 on # 9 of server xlarge RUNNING
+t:      56580 job   312 (running) on # 3 of server large (active) SCHEDULED
+t:      56580 job   312 on # 3 of server large RUNNING
+t:      56627 job   312 on # 3 of server large COMPLETED
+t:      56761 job   310 on #12 of server xlarge COMPLETED
+t:      57128 job   311 on # 9 of server xlarge COMPLETED
+t:      57432 job   313 (running) on # 3 of server large (active) SCHEDULED
+t:      57432 job   313 on # 3 of server large RUNNING
+t:      57609 job   313 on # 3 of server large COMPLETED
+t:      58260 job   314 (running) on #12 of server xlarge (active) SCHEDULED
+t:      58260 job   314 on #12 of server xlarge RUNNING
+t:      58425 job   314 on #12 of server xlarge COMPLETED
+t:      58592 job   315 (running) on # 3 of server large (active) SCHEDULED
+t:      58592 job   315 on # 3 of server large RUNNING
+t:      58645 job   308 on # 0 of server xlarge COMPLETED
+t:      58843 job   316 (running) on # 5 of server xlarge (active) SCHEDULED
+t:      58843 job   316 on # 5 of server xlarge RUNNING
+t:      59206 job   316 on # 5 of server xlarge COMPLETED
+t:      59279 job   315 on # 3 of server large COMPLETED
+t:      59386 job   317 (running) on # 9 of server xlarge (active) SCHEDULED
+t:      59386 job   317 on # 9 of server xlarge RUNNING
+t:      59402 job   239 on # 0 of server large COMPLETED
+t:      59507 job   318 (running) on #12 of server xlarge (active) SCHEDULED
+t:      59507 job   318 on #12 of server xlarge RUNNING
+t:      59559 job   319 (running) on # 0 of server xlarge (active) SCHEDULED
+t:      59559 job   319 on # 0 of server xlarge RUNNING
+t:      59566 job   318 on #12 of server xlarge COMPLETED
+t:      59678 job   320 (running) on # 5 of server xlarge (active) SCHEDULED
+t:      59678 job   320 on # 5 of server xlarge RUNNING
+t:      59682 job   320 on # 5 of server xlarge COMPLETED
+t:      59790 job   317 on # 9 of server xlarge COMPLETED
+t:      59804 job   321 (running) on # 5 of server xlarge (active) SCHEDULED
+t:      59804 job   321 on # 5 of server xlarge RUNNING
+t:      60198 job   322 (running) on #12 of server xlarge (active) SCHEDULED
+t:      60198 job   322 on #12 of server xlarge RUNNING
+t:      60323 job   321 on # 5 of server xlarge COMPLETED
+t:      60413 job   319 on # 0 of server xlarge COMPLETED
+t:      60621 job   323 (running) on # 3 of server large (active) SCHEDULED
+t:      60621 job   323 on # 3 of server large RUNNING
+t:      60625 job   322 on #12 of server xlarge COMPLETED
+t:      60692 job   323 on # 3 of server large COMPLETED
+t:      61125 job   280 on # 5 of server xlarge COMPLETED
+t:      61300 job   324 (running) on # 0 of server xlarge (active) SCHEDULED
+t:      61300 job   324 on # 0 of server xlarge RUNNING
+t:      61820 job   324 on # 0 of server xlarge COMPLETED
+t:      62033 job   325 (running) on # 9 of server xlarge (active) SCHEDULED
+t:      62033 job   325 on # 9 of server xlarge RUNNING
+t:      62153 job   326 (running) on # 3 of server large (active) SCHEDULED
+t:      62153 job   326 on # 3 of server large RUNNING
+t:      62173 job   326 on # 3 of server large COMPLETED
+t:      62754 job   325 on # 9 of server xlarge COMPLETED
+t:      62795 job   327 (running) on #12 of server xlarge (active) SCHEDULED
+t:      62795 job   327 on #12 of server xlarge RUNNING
+t:      62868 job   328 (running) on # 0 of server xlarge (active) SCHEDULED
+t:      62868 job   328 on # 0 of server xlarge RUNNING
+t:      62869 job   328 on # 0 of server xlarge COMPLETED
+t:      63163 job   327 on #12 of server xlarge COMPLETED
+t:      63259 job   329 (running) on # 0 of server xlarge (active) SCHEDULED
+t:      63259 job   329 on # 0 of server xlarge RUNNING
+t:      63317 job   329 on # 0 of server xlarge COMPLETED
+t:      63816 job   330 (running) on # 3 of server xlarge (active) SCHEDULED
+t:      63816 job   330 on # 3 of server xlarge RUNNING
+t:      63894 job   331 (running) on # 0 of server xlarge (active) SCHEDULED
+t:      63894 job   331 on # 0 of server xlarge RUNNING
+t:      64244 job   332 (running) on # 3 of server large (active) SCHEDULED
+t:      64244 job   332 on # 3 of server large RUNNING
+t:      64505 job   331 on # 0 of server xlarge COMPLETED
+t:      64530 job   333 (running) on # 5 of server large (active) SCHEDULED
+t:      64530 job   333 on # 5 of server large RUNNING
+t:      64562 job   333 on # 5 of server large COMPLETED
+t:      64588 job   330 on # 3 of server xlarge COMPLETED
+t:      64959 job   334 (running) on # 9 of server xlarge (active) SCHEDULED
+t:      64959 job   334 on # 9 of server xlarge RUNNING
+t:      64971 job   334 on # 9 of server xlarge COMPLETED
+t:      65049 job   300 on # 9 of server xlarge COMPLETED
+t:      65133 job   335 (running) on # 5 of server large (active) SCHEDULED
+t:      65133 job   335 on # 5 of server large RUNNING
+t:      65225 job   336 (running) on # 0 of server xlarge (active) SCHEDULED
+t:      65225 job   336 on # 0 of server xlarge RUNNING
+t:      65600 job   336 on # 0 of server xlarge COMPLETED
+t:      65911 job   337 (running) on # 0 of server xlarge (active) SCHEDULED
+t:      65911 job   337 on # 0 of server xlarge RUNNING
+t:      65990 job   335 on # 5 of server large COMPLETED
+t:      66331 job   338 (running) on # 1 of server xlarge (active) SCHEDULED
+t:      66331 job   338 on # 1 of server xlarge RUNNING
+t:      66544 job   339 (running) on # 5 of server large (active) SCHEDULED
+t:      66544 job   339 on # 5 of server large RUNNING
+t:      66701 job   338 on # 1 of server xlarge COMPLETED
+t:      66722 job   339 on # 5 of server large COMPLETED
+t:      67216 job   340 (running) on # 1 of server xlarge (active) SCHEDULED
+t:      67216 job   340 on # 1 of server xlarge RUNNING
+t:      67245 job   340 on # 1 of server xlarge COMPLETED
+t:      67292 job   341 (running) on # 5 of server large (active) SCHEDULED
+t:      67292 job   341 on # 5 of server large RUNNING
+t:      67321 job   341 on # 5 of server large COMPLETED
+t:      67329 job   277 on # 0 of server medium COMPLETED
+t:      67498 job   342 (running) on # 5 of server large (active) SCHEDULED
+t:      67498 job   342 on # 5 of server large RUNNING
+t:      67519 job   342 on # 5 of server large COMPLETED
+t:      67676 job   343 (running) on # 5 of server large (active) SCHEDULED
+t:      67676 job   343 on # 5 of server large RUNNING
+t:      68228 job   344 (running) on # 1 of server xlarge (active) SCHEDULED
+t:      68228 job   344 on # 1 of server xlarge RUNNING
+t:      68401 job   344 on # 1 of server xlarge COMPLETED
+t:      68404 job   343 on # 5 of server large COMPLETED
+t:      68819 job   345 (running) on # 5 of server large (active) SCHEDULED
+t:      68819 job   345 on # 5 of server large RUNNING
+t:      68820 job   345 on # 5 of server large COMPLETED
+t:      69220 job   346 (running) on # 1 of server xlarge (active) SCHEDULED
+t:      69220 job   346 on # 1 of server xlarge RUNNING
+t:      69240 job   346 on # 1 of server xlarge COMPLETED
+t:      69806 job   347 (running) on # 5 of server large (active) SCHEDULED
+t:      69806 job   347 on # 5 of server large RUNNING
+t:      69933 job   347 on # 5 of server large COMPLETED
+t:      70258 job   348 (running) on # 5 of server large (active) SCHEDULED
+t:      70258 job   348 on # 5 of server large RUNNING
+t:      70321 job   348 on # 5 of server large COMPLETED
+t:      70521 job   349 (running) on # 3 of server xlarge (active) SCHEDULED
+t:      70521 job   349 on # 3 of server xlarge RUNNING
+t:      70549 job   349 on # 3 of server xlarge COMPLETED
+t:      70553 job   350 (running) on # 1 of server xlarge (active) SCHEDULED
+t:      70553 job   350 on # 1 of server xlarge RUNNING
+t:      70582 job   350 on # 1 of server xlarge COMPLETED
+t:      70711 job   351 (running) on # 0 of server medium (active) SCHEDULED
+t:      70711 job   351 on # 0 of server medium RUNNING
+t:      70984 job   352 (running) on # 1 of server xlarge (active) SCHEDULED
+t:      70984 job   352 on # 1 of server xlarge RUNNING
+t:      71037 job   351 on # 0 of server medium COMPLETED
+t:      71387 job   353 (running) on # 0 of server xlarge (active) SCHEDULED
+t:      71387 job   353 on # 0 of server xlarge RUNNING
+t:      71533 job   353 on # 0 of server xlarge COMPLETED
+t:      71658 job   352 on # 1 of server xlarge COMPLETED
+t:      71914 job   271 on # 2 of server large COMPLETED
+t:      71974 job   354 (running) on # 5 of server large (active) SCHEDULED
+t:      71974 job   354 on # 5 of server large RUNNING
+t:      72201 job   355 (running) on # 1 of server xlarge (active) SCHEDULED
+t:      72201 job   355 on # 1 of server xlarge RUNNING
+t:      72350 job   355 on # 1 of server xlarge COMPLETED
+t:      72451 job   354 on # 5 of server large COMPLETED
+t:      72806 job   356 (running) on # 1 of server xlarge (active) SCHEDULED
+t:      72806 job   356 on # 1 of server xlarge RUNNING
+t:      73026 job   357 (running) on # 0 of server medium (active) SCHEDULED
+t:      73026 job   357 on # 0 of server medium RUNNING
+t:      73141 job   357 on # 0 of server medium COMPLETED
+t:      73401 job   358 (running) on # 2 of server xlarge (active) SCHEDULED
+t:      73401 job   358 on # 2 of server xlarge RUNNING
+t:      73883 job   359 (running) on # 5 of server large (active) SCHEDULED
+t:      73883 job   359 on # 5 of server large RUNNING
+t:      74048 job   359 on # 5 of server large COMPLETED
+t:      74273 job   360 (running) on # 4 of server xlarge (active) SCHEDULED
+t:      74273 job   360 on # 4 of server xlarge RUNNING
+t:      74286 job   360 on # 4 of server xlarge COMPLETED
+t:      74300 job   358 on # 2 of server xlarge COMPLETED
+t:      74718 job   361 (running) on # 2 of server xlarge (active) SCHEDULED
+t:      74718 job   361 on # 2 of server xlarge RUNNING
+t:      75051 job   361 on # 2 of server xlarge COMPLETED
+t:      75236 job   362 (running) on # 2 of server xlarge (active) SCHEDULED
+t:      75236 job   362 on # 2 of server xlarge RUNNING
+t:      75257 job   362 on # 2 of server xlarge COMPLETED
+t:      75767 job   363 (running) on # 2 of server xlarge (active) SCHEDULED
+t:      75767 job   363 on # 2 of server xlarge RUNNING
+t:      75903 job   364 (running) on # 1 of server xlarge (active) SCHEDULED
+t:      75903 job   364 on # 1 of server xlarge RUNNING
+t:      75904 job   364 on # 1 of server xlarge COMPLETED
+t:      75911 job   363 on # 2 of server xlarge COMPLETED
+t:      76508 job   365 (running) on # 1 of server xlarge (active) SCHEDULED
+t:      76508 job   365 on # 1 of server xlarge RUNNING
+t:      76595 job   365 on # 1 of server xlarge COMPLETED
+t:      77073 job   366 (running) on # 0 of server medium (active) SCHEDULED
+t:      77073 job   366 on # 0 of server medium RUNNING
+t:      77227 job   366 on # 0 of server medium COMPLETED
+t:      77623 job   367 (running) on # 5 of server large (active) SCHEDULED
+t:      77623 job   367 on # 5 of server large RUNNING
+t:      78017 job   368 (running) on # 2 of server xlarge (active) SCHEDULED
+t:      78017 job   368 on # 2 of server xlarge RUNNING
+t:      78119 job   369 (running) on # 0 of server xlarge (active) SCHEDULED
+t:      78119 job   369 on # 0 of server xlarge RUNNING
+t:      78230 job   367 on # 5 of server large COMPLETED
+t:      78410 job   370 (running) on # 4 of server xlarge (active) SCHEDULED
+t:      78410 job   370 on # 4 of server xlarge RUNNING
+t:      78673 job   368 on # 2 of server xlarge COMPLETED
+t:      78926 job   371 (running) on # 2 of server xlarge (active) SCHEDULED
+t:      78926 job   371 on # 2 of server xlarge RUNNING
+t:      79202 job   370 on # 4 of server xlarge COMPLETED
+t:      79493 job   372 (running) on # 4 of server xlarge (active) SCHEDULED
+t:      79493 job   372 on # 4 of server xlarge RUNNING
+t:      79509 job   372 on # 4 of server xlarge COMPLETED
+t:      79762 job   371 on # 2 of server xlarge COMPLETED
+t:      79881 job   373 (running) on # 2 of server xlarge (active) SCHEDULED
+t:      79881 job   373 on # 2 of server xlarge RUNNING
+t:      80167 job   374 (running) on # 0 of server medium (active) SCHEDULED
+t:      80167 job   374 on # 0 of server medium RUNNING
+t:      80701 job   375 (running) on # 5 of server large (active) SCHEDULED
+t:      80701 job   375 on # 5 of server large RUNNING
+t:      80738 job   376 (running) on # 3 of server large (active) SCHEDULED
+t:      80738 job   376 on # 3 of server large RUNNING
+t:      80861 job   377 (running) on # 4 of server xlarge (active) SCHEDULED
+t:      80861 job   377 on # 4 of server xlarge RUNNING
+t:      80892 job   376 on # 3 of server large COMPLETED
+t:      80901 job   374 on # 0 of server medium COMPLETED
+t:      80964 job   378 (running) on # 3 of server xlarge (active) SCHEDULED
+t:      80964 job   378 on # 3 of server xlarge RUNNING
+t:      80984 job   378 on # 3 of server xlarge COMPLETED
+t:      81196 job   375 on # 5 of server large COMPLETED
+t:      81508 job   379 (running) on # 5 of server large (active) SCHEDULED
+t:      81508 job   379 on # 5 of server large RUNNING
+t:      81528 job   379 on # 5 of server large COMPLETED
+t:      82072 job   380 (running) on # 5 of server xlarge (active) SCHEDULED
+t:      82072 job   380 on # 5 of server xlarge RUNNING
+t:      82101 job   380 on # 5 of server xlarge COMPLETED
+t:      82594 job   381 (running) on # 5 of server xlarge (active) SCHEDULED
+t:      82594 job   381 on # 5 of server xlarge RUNNING
+t:      82597 job   381 on # 5 of server xlarge COMPLETED
+t:      82804 job   382 (running) on # 5 of server large (active) SCHEDULED
+t:      82804 job   382 on # 5 of server large RUNNING
+t:      82825 job   382 on # 5 of server large COMPLETED
+t:      83068 job   383 (running) on # 1 of server xlarge (active) SCHEDULED
+t:      83068 job   383 on # 1 of server xlarge RUNNING
+t:      83552 job   384 (running) on # 0 of server medium (active) SCHEDULED
+t:      83552 job   384 on # 0 of server medium RUNNING
+t:      83829 job   383 on # 1 of server xlarge COMPLETED
+t:      83871 job   385 (running) on # 8 of server xlarge (active) SCHEDULED
+t:      83871 job   385 on # 8 of server xlarge RUNNING
+t:      83895 job   386 (running) on # 4 of server xlarge (active) SCHEDULED
+t:      83895 job   386 on # 4 of server xlarge RUNNING
+t:      83900 job   385 on # 8 of server xlarge COMPLETED
+t:      83959 job   384 on # 0 of server medium COMPLETED
+t:      84078 job   387 (running) on # 0 of server medium (active) SCHEDULED
+t:      84078 job   387 on # 0 of server medium RUNNING
+t:      84395 job   388 (running) on # 8 of server xlarge (active) SCHEDULED
+t:      84395 job   388 on # 8 of server xlarge RUNNING
+t:      84437 job   386 on # 4 of server xlarge COMPLETED
+t:      84443 job   388 on # 8 of server xlarge COMPLETED
+t:      84599 job   387 on # 0 of server medium COMPLETED
+t:      84673 job   389 (running) on # 5 of server xlarge (active) SCHEDULED
+t:      84673 job   389 on # 5 of server xlarge RUNNING
+t:      84913 job   390 (running) on # 6 of server xlarge (active) SCHEDULED
+t:      84913 job   390 on # 6 of server xlarge RUNNING
+t:      85191 job   391 (running) on # 0 of server medium (active) SCHEDULED
+t:      85191 job   391 on # 0 of server medium RUNNING
+t:      85337 job   392 (running) on # 8 of server xlarge (active) SCHEDULED
+t:      85337 job   392 on # 8 of server xlarge RUNNING
+t:      85426 job   389 on # 5 of server xlarge COMPLETED
+t:      85577 job   393 (running) on # 5 of server xlarge (active) SCHEDULED
+t:      85577 job   393 on # 5 of server xlarge RUNNING
+t:      85652 job   393 on # 5 of server xlarge COMPLETED
+t:      85700 job   394 (running) on # 5 of server xlarge (active) SCHEDULED
+t:      85700 job   394 on # 5 of server xlarge RUNNING
+t:      85792 job   391 on # 0 of server medium COMPLETED
+t:      86131 job   395 (running) on # 6 of server xlarge (active) SCHEDULED
+t:      86131 job   395 on # 6 of server xlarge RUNNING
+t:      86565 job   394 on # 5 of server xlarge COMPLETED
+t:      86623 job   396 (running) on # 5 of server xlarge (active) SCHEDULED
+t:      86623 job   396 on # 5 of server xlarge RUNNING
+t:      86893 job   397 (running) on # 7 of server xlarge (active) SCHEDULED
+t:      86893 job   397 on # 7 of server xlarge RUNNING
+t:      87016 job   397 on # 7 of server xlarge COMPLETED
+t:      87017 job   395 on # 6 of server xlarge COMPLETED
+t:      87147 job   398 (running) on # 7 of server xlarge (active) SCHEDULED
+t:      87147 job   398 on # 7 of server xlarge RUNNING
+t:      87465 job   399 (running) on # 5 of server large (active) SCHEDULED
+t:      87465 job   399 on # 5 of server large RUNNING
+t:      87625 job   398 on # 7 of server xlarge COMPLETED
+t:      87736 job   400 (running) on # 0 of server medium (active) SCHEDULED
+t:      87736 job   400 on # 0 of server medium RUNNING
+t:      87822 job   401 (running) on # 7 of server xlarge (active) SCHEDULED
+t:      87822 job   401 on # 7 of server xlarge RUNNING
+t:      87826 job   401 on # 7 of server xlarge COMPLETED
+t:      87862 job   402 (running) on # 7 of server xlarge (active) SCHEDULED
+t:      87862 job   402 on # 7 of server xlarge RUNNING
+t:      87941 job   403 (running) on # 1 of server xlarge (active) SCHEDULED
+t:      87941 job   403 on # 1 of server xlarge RUNNING
+t:      88016 job   402 on # 7 of server xlarge COMPLETED
+t:      88110 job   404 (running) on # 7 of server xlarge (active) SCHEDULED
+t:      88110 job   404 on # 7 of server xlarge RUNNING
+t:      88235 job   399 on # 5 of server large COMPLETED
+t:      88295 job   403 on # 1 of server xlarge COMPLETED
+t:      88306 job   405 (running) on # 3 of server large (active) SCHEDULED
+t:      88306 job   405 on # 3 of server large RUNNING
+t:      88378 job   406 (running) on # 1 of server xlarge (active) SCHEDULED
+t:      88378 job   406 on # 1 of server xlarge RUNNING
+t:      88421 job   405 on # 3 of server large COMPLETED
+t:      88424 job   406 on # 1 of server xlarge COMPLETED
+t:      88558 job   407 (running) on # 5 of server large (active) SCHEDULED
+t:      88558 job   407 on # 5 of server large RUNNING
+t:      88585 job   407 on # 5 of server large COMPLETED
+t:      89008 job   408 (running) on # 5 of server large (active) SCHEDULED
+t:      89008 job   408 on # 5 of server large RUNNING
+t:      89142 job   409 (running) on # 9 of server xlarge (active) SCHEDULED
+t:      89142 job   409 on # 9 of server xlarge RUNNING
+t:      89145 job   409 on # 9 of server xlarge COMPLETED
+t:      89309 job   408 on # 5 of server large COMPLETED
+t:      89559 job   410 (running) on # 3 of server large (active) SCHEDULED
+t:      89559 job   410 on # 3 of server large RUNNING
+t:      89820 job   411 (running) on # 7 of server xlarge (active) SCHEDULED
+t:      89820 job   411 on # 7 of server xlarge RUNNING
+t:      89929 job   410 on # 3 of server large COMPLETED
+t:      89973 job   411 on # 7 of server xlarge COMPLETED
+t:      89976 job   412 (running) on # 9 of server xlarge (active) SCHEDULED
+t:      89976 job   412 on # 9 of server xlarge RUNNING
+t:      89992 job   412 on # 9 of server xlarge COMPLETED
+t:      90088 job   413 (running) on # 3 of server large (active) SCHEDULED
+t:      90088 job   413 on # 3 of server large RUNNING
+t:      90111 job   413 on # 3 of server large COMPLETED
+t:      90333 job   414 (running) on # 9 of server xlarge (active) SCHEDULED
+t:      90333 job   414 on # 9 of server xlarge RUNNING
+t:      90648 job   415 (running) on # 3 of server large (active) SCHEDULED
+t:      90648 job   415 on # 3 of server large RUNNING
+t:      90732 job   356 on # 1 of server xlarge COMPLETED
+t:      90802 job   415 on # 3 of server large COMPLETED
+t:      90943 job   416 (running) on # 1 of server xlarge (active) SCHEDULED
+t:      90943 job   416 on # 1 of server xlarge RUNNING
+t:      91077 job   414 on # 9 of server xlarge COMPLETED
+t:      91166 job   417 (running) on # 4 of server xlarge (active) SCHEDULED
+t:      91166 job   417 on # 4 of server xlarge RUNNING
+t:      91238 job   417 on # 4 of server xlarge COMPLETED
+t:      91404 job   416 on # 1 of server xlarge COMPLETED
+t:      91433 job   418 (running) on # 1 of server xlarge (active) SCHEDULED
+t:      91433 job   418 on # 1 of server xlarge RUNNING
+t:      91822 job   419 (running) on # 5 of server xlarge (active) SCHEDULED
+t:      91822 job   419 on # 5 of server xlarge RUNNING
+t:      92105 job   420 (running) on # 4 of server xlarge (active) SCHEDULED
+t:      92105 job   420 on # 4 of server xlarge RUNNING
+t:      92138 job   419 on # 5 of server xlarge COMPLETED
+t:      92329 job   421 (running) on # 9 of server xlarge (active) SCHEDULED
+t:      92329 job   421 on # 9 of server xlarge RUNNING
+t:      92565 job   422 (running) on #10 of server xlarge (active) SCHEDULED
+t:      92565 job   422 on #10 of server xlarge RUNNING
+t:      92649 job   422 on #10 of server xlarge COMPLETED
+t:      92741 job   420 on # 4 of server xlarge COMPLETED
+t:      92938 job   423 (running) on #10 of server xlarge (active) SCHEDULED
+t:      92938 job   423 on #10 of server xlarge RUNNING
+t:      92942 job   421 on # 9 of server xlarge COMPLETED
+t:      93050 job   423 on #10 of server xlarge COMPLETED
+t:      93279 job   424 (running) on # 9 of server xlarge (active) SCHEDULED
+t:      93279 job   424 on # 9 of server xlarge RUNNING
+t:      93494 job   425 (running) on #10 of server xlarge (active) SCHEDULED
+t:      93494 job   425 on #10 of server xlarge RUNNING
+t:      93512 job   425 on #10 of server xlarge COMPLETED
+t:      93596 job   424 on # 9 of server xlarge COMPLETED
+t:      93668 job   426 (running) on # 9 of server xlarge (active) SCHEDULED
+t:      93668 job   426 on # 9 of server xlarge RUNNING
+t:      93818 job   427 (running) on #10 of server xlarge (active) SCHEDULED
+t:      93818 job   427 on #10 of server xlarge RUNNING
+t:      94007 job   428 (running) on #10 of server xlarge (active) SCHEDULED
+t:      94007 job   428 on #10 of server xlarge RUNNING
+t:      94082 job   332 on # 3 of server large COMPLETED
+t:      94121 job   428 on #10 of server xlarge COMPLETED
+t:      94286 job   429 (running) on #11 of server xlarge (active) SCHEDULED
+t:      94286 job   429 on #11 of server xlarge RUNNING
+t:      94409 job   430 (running) on #10 of server xlarge (active) SCHEDULED
+t:      94409 job   430 on #10 of server xlarge RUNNING
+t:      94504 job   426 on # 9 of server xlarge COMPLETED
+t:      94710 job   431 (running) on # 5 of server xlarge (active) SCHEDULED
+t:      94710 job   431 on # 5 of server xlarge RUNNING
+t:      94784 job   432 (running) on # 9 of server xlarge (active) SCHEDULED
+t:      94784 job   432 on # 9 of server xlarge RUNNING
+t:      94847 job   432 on # 9 of server xlarge COMPLETED
+t:      94908 job   430 on #10 of server xlarge COMPLETED
+t:      94932 job   429 on #11 of server xlarge COMPLETED
+t:      95015 job   433 (running) on # 9 of server xlarge (active) SCHEDULED
+t:      95015 job   433 on # 9 of server xlarge RUNNING
+t:      95143 job   434 (running) on #10 of server xlarge (active) SCHEDULED
+t:      95143 job   434 on #10 of server xlarge RUNNING
+t:      95249 job   431 on # 5 of server xlarge COMPLETED
+t:      95364 job   435 (running) on #10 of server xlarge (active) SCHEDULED
+t:      95364 job   435 on #10 of server xlarge RUNNING
+t:      95448 job   436 (running) on #11 of server xlarge (active) SCHEDULED
+t:      95448 job   436 on #11 of server xlarge RUNNING
+t:      95544 job   433 on # 9 of server xlarge COMPLETED
+t:      95545 job   437 (running) on # 2 of server large (active) SCHEDULED
+t:      95545 job   437 on # 2 of server large RUNNING
+t:      95564 job   436 on #11 of server xlarge COMPLETED
+t:      95600 job   437 on # 2 of server large COMPLETED
+t:      95746 job   438 (running) on # 9 of server xlarge (active) SCHEDULED
+t:      95746 job   438 on # 9 of server xlarge RUNNING
+t:      95756 job   439 (running) on #11 of server xlarge (active) SCHEDULED
+t:      95756 job   439 on #11 of server xlarge RUNNING
+t:      95828 job   440 (running) on #13 of server xlarge (active) SCHEDULED
+t:      95828 job   440 on #13 of server xlarge RUNNING
+t:      95945 job   441 (running) on # 2 of server large (active) SCHEDULED
+t:      95945 job   441 on # 2 of server large RUNNING
+t:      95968 job   441 on # 2 of server large COMPLETED
+t:      96236 job   442 (running) on # 2 of server large (active) SCHEDULED
+t:      96236 job   442 on # 2 of server large RUNNING
+t:      96358 job   443 (running) on #13 of server xlarge (active) SCHEDULED
+t:      96358 job   443 on #13 of server xlarge RUNNING
+t:      96368 job   440 on #13 of server xlarge COMPLETED
+t:      96631 job   444 (running) on #12 of server xlarge (active) SCHEDULED
+t:      96631 job   444 on #12 of server xlarge RUNNING
+t:      96635 job   438 on # 9 of server xlarge COMPLETED
+t:      96645 job   444 on #12 of server xlarge COMPLETED
+t:      96703 job   445 (running) on #12 of server xlarge (active) SCHEDULED
+t:      96703 job   445 on #12 of server xlarge RUNNING
+t:      96991 job   446 (running) on # 8 of server xlarge (active) SCHEDULED
+t:      96991 job   446 on # 8 of server xlarge RUNNING
+t:      97098 job   446 on # 8 of server xlarge COMPLETED
+t:      97104 job   442 on # 2 of server large COMPLETED
+t:      97143 job   447 (running) on # 4 of server xlarge (active) SCHEDULED
+t:      97143 job   447 on # 4 of server xlarge RUNNING
+t:      97161 job   443 on #13 of server xlarge COMPLETED
+t:      97171 job   447 on # 4 of server xlarge COMPLETED
+t:      97255 job   448 (running) on # 4 of server xlarge (active) SCHEDULED
+t:      97255 job   448 on # 4 of server xlarge RUNNING
+t:      97281 job   448 on # 4 of server xlarge COMPLETED
+t:      97528 job   449 (running) on # 4 of server xlarge (active) SCHEDULED
+t:      97528 job   449 on # 4 of server xlarge RUNNING
+t:      97553 job   449 on # 4 of server xlarge COMPLETED
+t:      97592 job   450 (running) on # 2 of server large (active) SCHEDULED
+t:      97592 job   450 on # 2 of server large RUNNING
+t:      97621 job   450 on # 2 of server large COMPLETED
+t:      97703 job   451 (running) on # 9 of server xlarge (active) SCHEDULED
+t:      97703 job   451 on # 9 of server xlarge RUNNING
+t:      97735 job   452 (running) on #13 of server xlarge (active) SCHEDULED
+t:      97735 job   452 on #13 of server xlarge RUNNING
+t:      98091 job   453 (running) on # 2 of server large (active) SCHEDULED
+t:      98091 job   453 on # 2 of server large RUNNING
+t:      98423 job   454 (running) on # 4 of server xlarge (active) SCHEDULED
+t:      98423 job   454 on # 4 of server xlarge RUNNING
+t:      98537 job   454 on # 4 of server xlarge COMPLETED
+t:      98618 job   453 on # 2 of server large COMPLETED
+t:      98624 job   455 (running) on # 2 of server large (active) SCHEDULED
+t:      98624 job   455 on # 2 of server large RUNNING
+t:      98931 job   456 (running) on # 4 of server xlarge (active) SCHEDULED
+t:      98931 job   456 on # 4 of server xlarge RUNNING
+t:      98948 job   456 on # 4 of server xlarge COMPLETED
+t:      98976 job   455 on # 2 of server large COMPLETED
+t:      99236 job   457 (running) on # 4 of server xlarge (active) SCHEDULED
+t:      99236 job   457 on # 4 of server xlarge RUNNING
+t:      99556 job   458 (running) on # 2 of server large (active) SCHEDULED
+t:      99556 job   458 on # 2 of server large RUNNING
+t:      99713 job   458 on # 2 of server large COMPLETED
+t:      99726 job   439 on #11 of server xlarge COMPLETED
+t:      99757 job   459 (running) on # 2 of server large (active) SCHEDULED
+t:      99757 job   459 on # 2 of server large RUNNING
+t:      99814 job   459 on # 2 of server large COMPLETED
+t:      99893 job   460 (running) on # 2 of server large (active) SCHEDULED
+t:      99893 job   460 on # 2 of server large RUNNING
+t:      99960 job   460 on # 2 of server large COMPLETED
+t:     100018 job   457 on # 4 of server xlarge COMPLETED
+t:     100114 job   461 (running) on # 2 of server large (active) SCHEDULED
+t:     100114 job   461 on # 2 of server large RUNNING
+t:     100404 job   462 (running) on #13 of server xlarge (active) SCHEDULED
+t:     100404 job   462 on #13 of server xlarge RUNNING
+t:     100738 job   462 on #13 of server xlarge COMPLETED
+t:     100743 job   463 (running) on #13 of server xlarge (active) SCHEDULED
+t:     100743 job   463 on #13 of server xlarge RUNNING
+t:     101021 job   464 (running) on #13 of server xlarge (active) SCHEDULED
+t:     101021 job   464 on #13 of server xlarge RUNNING
+t:     101141 job   464 on #13 of server xlarge COMPLETED
+t:     101394 job   465 (running) on #13 of server xlarge (active) SCHEDULED
+t:     101394 job   465 on #13 of server xlarge RUNNING
+t:     101424 job   465 on #13 of server xlarge COMPLETED
+t:     101774 job   466 (running) on # 4 of server xlarge (active) SCHEDULED
+t:     101774 job   466 on # 4 of server xlarge RUNNING
+t:     102107 job   467 (running) on #13 of server xlarge (active) SCHEDULED
+t:     102107 job   467 on #13 of server xlarge RUNNING
+t:     102236 job   468 (running) on # 9 of server xlarge (active) SCHEDULED
+t:     102236 job   468 on # 9 of server xlarge RUNNING
+t:     102464 job   469 (running) on #11 of server xlarge (active) SCHEDULED
+t:     102464 job   469 on #11 of server xlarge RUNNING
+t:     102667 job   466 on # 4 of server xlarge COMPLETED
+t:     102803 job   467 on #13 of server xlarge COMPLETED
+t:     102804 job   470 (running) on # 4 of server xlarge (active) SCHEDULED
+t:     102804 job   470 on # 4 of server xlarge RUNNING
+t:     103025 job   468 on # 9 of server xlarge COMPLETED
+t:     103031 job   471 (running) on #13 of server xlarge (active) SCHEDULED
+t:     103031 job   471 on #13 of server xlarge RUNNING
+t:     103067 job   471 on #13 of server xlarge COMPLETED
+t:     103331 job   472 (running) on #13 of server xlarge (active) SCHEDULED
+t:     103331 job   472 on #13 of server xlarge RUNNING
+t:     103392 job   473 (running) on #11 of server xlarge (active) SCHEDULED
+t:     103392 job   473 on #11 of server xlarge RUNNING
+t:     103463 job   472 on #13 of server xlarge COMPLETED
+t:     103552 job   470 on # 4 of server xlarge COMPLETED
+t:     103555 job   473 on #11 of server xlarge COMPLETED
+t:     103837 job   474 (running) on #13 of server xlarge (active) SCHEDULED
+t:     103837 job   474 on #13 of server xlarge RUNNING
+t:     103873 job   474 on #13 of server xlarge COMPLETED
+t:     104251 job   475 (running) on # 4 of server xlarge (active) SCHEDULED
+t:     104251 job   475 on # 4 of server xlarge RUNNING
+t:     104592 job   476 (running) on #13 of server xlarge (active) SCHEDULED
+t:     104592 job   476 on #13 of server xlarge RUNNING
+t:     105012 job   477 (running) on #11 of server xlarge (active) SCHEDULED
+t:     105012 job   477 on #11 of server xlarge RUNNING
+t:     105398 job   476 on #13 of server xlarge COMPLETED
+t:     105446 job   478 (running) on # 9 of server xlarge (active) SCHEDULED
+t:     105446 job   478 on # 9 of server xlarge RUNNING
+t:     105510 job   478 on # 9 of server xlarge COMPLETED
+t:     105675 job   477 on #11 of server xlarge COMPLETED
+t:     105772 job   479 (running) on #13 of server xlarge (active) SCHEDULED
+t:     105772 job   479 on #13 of server xlarge RUNNING
+t:     105855 job   480 (running) on #11 of server xlarge (active) SCHEDULED
+t:     105855 job   480 on #11 of server xlarge RUNNING
+t:     105861 job   480 on #11 of server xlarge COMPLETED
+t:     105927 job   479 on #13 of server xlarge COMPLETED
+t:     106006 job   481 (running) on #13 of server xlarge (active) SCHEDULED
+t:     106006 job   481 on #13 of server xlarge RUNNING
+t:     106107 job   482 (running) on #11 of server xlarge (active) SCHEDULED
+t:     106107 job   482 on #11 of server xlarge RUNNING
+t:     106128 job   481 on #13 of server xlarge COMPLETED
+t:     106185 job   482 on #11 of server xlarge COMPLETED
+t:     106209 job   396 on # 5 of server xlarge COMPLETED
+t:     106458 job   483 (running) on # 5 of server xlarge (active) SCHEDULED
+t:     106458 job   483 on # 5 of server xlarge RUNNING
+t:     106853 job   484 (running) on #13 of server xlarge (active) SCHEDULED
+t:     106853 job   484 on #13 of server xlarge RUNNING
+t:     107027 job   485 (running) on #11 of server xlarge (active) SCHEDULED
+t:     107027 job   485 on #11 of server xlarge RUNNING
+t:     107326 job   486 (running) on #11 of server xlarge (active) SCHEDULED
+t:     107326 job   486 on #11 of server xlarge RUNNING
+t:     107458 job   487 (running) on # 9 of server xlarge (active) SCHEDULED
+t:     107458 job   487 on # 9 of server xlarge RUNNING
+t:     107579 job   488 (running) on # 9 of server xlarge (active) SCHEDULED
+t:     107579 job   488 on # 9 of server xlarge RUNNING
+t:     107703 job   484 on #13 of server xlarge COMPLETED
+t:     107745 job   488 on # 9 of server xlarge COMPLETED
+t:     107762 job   485 on #11 of server xlarge COMPLETED
+t:     107775 job   489 (running) on #13 of server xlarge (active) SCHEDULED
+t:     107775 job   489 on #13 of server xlarge RUNNING
+t:     107776 job   489 on #13 of server xlarge COMPLETED
+t:     107869 job   490 (running) on #13 of server xlarge (active) SCHEDULED
+t:     107869 job   490 on #13 of server xlarge RUNNING
+t:     107896 job   491 (running) on # 3 of server large (active) SCHEDULED
+t:     107896 job   491 on # 3 of server large RUNNING
+t:     107980 job   490 on #13 of server xlarge COMPLETED
+t:     108250 job   492 (waiting) on #14 of server xlarge (booting) SCHEDULED
+t:     108259 job   487 on # 9 of server xlarge COMPLETED
+t:     108310 job   492 on #14 of server xlarge RUNNING
+t:     108546 job   493 (waiting) on #15 of server xlarge (booting) SCHEDULED
+t:     108606 job   493 on #15 of server xlarge RUNNING
+t:     109100 job   494 (running) on # 3 of server xlarge (active) SCHEDULED
+t:     109100 job   494 on # 3 of server xlarge RUNNING
+t:     109355 job   495 (running) on #15 of server xlarge (active) SCHEDULED
+t:     109355 job   495 on #15 of server xlarge RUNNING
+t:     109503 job   495 on #15 of server xlarge COMPLETED
+t:     109781 job   496 (running) on # 9 of server xlarge (active) SCHEDULED
+t:     109781 job   496 on # 9 of server xlarge RUNNING
+t:     110091 job   497 (running) on #15 of server xlarge (active) SCHEDULED
+t:     110091 job   497 on #15 of server xlarge RUNNING
+t:     110217 job   497 on #15 of server xlarge COMPLETED
+t:     110389 job   498 (running) on #15 of server xlarge (active) SCHEDULED
+t:     110389 job   498 on #15 of server xlarge RUNNING
+t:     110426 job   498 on #15 of server xlarge COMPLETED
+t:     110600 job   496 on # 9 of server xlarge COMPLETED
+t:     110959 job   499 (running) on # 5 of server large (active) SCHEDULED
+t:     110959 job   499 on # 5 of server large RUNNING
+t:     111106 job   500 (running) on #15 of server xlarge (active) SCHEDULED
+t:     111106 job   500 on #15 of server xlarge RUNNING
+t:     111215 job   500 on #15 of server xlarge COMPLETED
+t:     111332 job   501 (waiting) on #16 of server xlarge (booting) SCHEDULED
+t:     111390 job   502 (running) on # 9 of server xlarge (active) SCHEDULED
+t:     111390 job   502 on # 9 of server xlarge RUNNING
+t:     111392 job   501 on #16 of server xlarge RUNNING
+t:     111531 job   502 on # 9 of server xlarge COMPLETED
+t:     111616 job   390 on # 6 of server xlarge COMPLETED
+t:     111968 job   503 (running) on #15 of server xlarge (active) SCHEDULED
+t:     111968 job   503 on #15 of server xlarge RUNNING
+t:     112182 job   504 (running) on #13 of server xlarge (active) SCHEDULED
+t:     112182 job   504 on #13 of server xlarge RUNNING
+t:     112297 job   505 (running) on #16 of server xlarge (active) SCHEDULED
+t:     112297 job   505 on #16 of server xlarge RUNNING
+t:     112351 job   504 on #13 of server xlarge COMPLETED
+t:     112396 job   505 on #16 of server xlarge COMPLETED
+t:     112418 job   483 on # 5 of server xlarge COMPLETED
+t:     112467 job   503 on #15 of server xlarge COMPLETED
+t:     112667 job   506 (running) on # 9 of server xlarge (active) SCHEDULED
+t:     112667 job   506 on # 9 of server xlarge RUNNING
+t:     112826 job   506 on # 9 of server xlarge COMPLETED
+t:     112911 job   507 (running) on #15 of server xlarge (active) SCHEDULED
+t:     112911 job   507 on #15 of server xlarge RUNNING
+t:     113092 job   508 (running) on #13 of server xlarge (active) SCHEDULED
+t:     113092 job   508 on #13 of server xlarge RUNNING
+t:     113237 job   507 on #15 of server xlarge COMPLETED
+t:     113550 job   509 (running) on #15 of server xlarge (active) SCHEDULED
+t:     113550 job   509 on #15 of server xlarge RUNNING
+t:     113633 job   509 on #15 of server xlarge COMPLETED
+t:     113673 job   508 on #13 of server xlarge COMPLETED
+t:     114018 job   510 (running) on #15 of server xlarge (active) SCHEDULED
+t:     114018 job   510 on #15 of server xlarge RUNNING
+t:     114051 job   511 (running) on #13 of server xlarge (active) SCHEDULED
+t:     114051 job   511 on #13 of server xlarge RUNNING
+t:     114183 job   512 (running) on #16 of server xlarge (active) SCHEDULED
+t:     114183 job   512 on #16 of server xlarge RUNNING
+t:     114220 job   435 on #10 of server xlarge COMPLETED
+t:     114266 job   512 on #16 of server xlarge COMPLETED
+t:     114319 job   513 (running) on #16 of server xlarge (active) SCHEDULED
+t:     114319 job   513 on #16 of server xlarge RUNNING
+t:     114363 job   514 (running) on #16 of server xlarge (active) SCHEDULED
+t:     114363 job   514 on #16 of server xlarge RUNNING
+t:     114372 job   514 on #16 of server xlarge COMPLETED
+t:     114382 job   513 on #16 of server xlarge COMPLETED
+t:     114533 job   511 on #13 of server xlarge COMPLETED
+t:     114589 job   198 on #12 of server xlarge COMPLETED
+t:     114972 job   515 (running) on #10 of server xlarge (active) SCHEDULED
+t:     114972 job   515 on #10 of server xlarge RUNNING
+t:     115296 job   515 on #10 of server xlarge COMPLETED
+t:     115356 job   516 (running) on #13 of server xlarge (active) SCHEDULED
+t:     115356 job   516 on #13 of server xlarge RUNNING
+t:     115529 job   516 on #13 of server xlarge COMPLETED
+t:     115830 job   475 on # 4 of server xlarge COMPLETED
+t:     115875 job   517 (running) on # 4 of server xlarge (active) SCHEDULED
+t:     115875 job   517 on # 4 of server xlarge RUNNING
+t:     116044 job   517 on # 4 of server xlarge COMPLETED
+t:     116417 job   518 (running) on #13 of server xlarge (active) SCHEDULED
+t:     116417 job   518 on #13 of server xlarge RUNNING
+t:     116593 job   518 on #13 of server xlarge COMPLETED
+t:     116844 job   519 (running) on # 4 of server xlarge (active) SCHEDULED
+t:     116844 job   519 on # 4 of server xlarge RUNNING
+t:     117020 job   520 (running) on #13 of server xlarge (active) SCHEDULED
+t:     117020 job   520 on #13 of server xlarge RUNNING
+t:     117234 job   491 on # 3 of server large COMPLETED
+t:     117285 job   521 (running) on #16 of server xlarge (active) SCHEDULED
+t:     117285 job   521 on #16 of server xlarge RUNNING
+t:     117364 job   520 on #13 of server xlarge COMPLETED
+t:     117371 job   434 on #10 of server xlarge COMPLETED
+t:     117433 job   522 (running) on #16 of server xlarge (active) SCHEDULED
+t:     117433 job   522 on #16 of server xlarge RUNNING
+t:     117491 job   522 on #16 of server xlarge COMPLETED
+t:     117696 job   519 on # 4 of server xlarge COMPLETED
+t:     117861 job   521 on #16 of server xlarge COMPLETED
+t:     117871 job   418 on # 1 of server xlarge COMPLETED
+t:     118006 job   523 (running) on #13 of server xlarge (active) SCHEDULED
+t:     118006 job   523 on #13 of server xlarge RUNNING
+t:     118186 job   524 (running) on #16 of server xlarge (active) SCHEDULED
+t:     118186 job   524 on #16 of server xlarge RUNNING
+t:     118555 job   523 on #13 of server xlarge COMPLETED
+t:     118574 job   524 on #16 of server xlarge COMPLETED
+t:     118687 job   525 (running) on #13 of server xlarge (active) SCHEDULED
+t:     118687 job   525 on #13 of server xlarge RUNNING
+t:     118759 job   525 on #13 of server xlarge COMPLETED
+t:     118915 job   526 (running) on #16 of server xlarge (active) SCHEDULED
+t:     118915 job   526 on #16 of server xlarge RUNNING
+t:     119063 job   527 (running) on # 4 of server xlarge (active) SCHEDULED
+t:     119063 job   527 on # 4 of server xlarge RUNNING
+t:     119096 job   528 (running) on #13 of server xlarge (active) SCHEDULED
+t:     119096 job   528 on #13 of server xlarge RUNNING
+t:     119109 job   527 on # 4 of server xlarge COMPLETED
+t:     119369 job   377 on # 4 of server xlarge COMPLETED
+t:     119462 job   529 (running) on #12 of server xlarge (active) SCHEDULED
+t:     119462 job   529 on #12 of server xlarge RUNNING
+t:     119577 job   530 (running) on #12 of server xlarge (active) SCHEDULED
+t:     119577 job   530 on #12 of server xlarge RUNNING
+t:     119788 job   528 on #13 of server xlarge COMPLETED
+t:     120112 job   530 on #12 of server xlarge COMPLETED
+t:     120123 job   531 (running) on #13 of server xlarge (active) SCHEDULED
+t:     120123 job   531 on #13 of server xlarge RUNNING
+t:     120147 job   531 on #13 of server xlarge COMPLETED
+t:     120287 job   451 on # 9 of server xlarge COMPLETED
+t:     120447 job   532 (running) on #12 of server xlarge (active) SCHEDULED
+t:     120447 job   532 on #12 of server xlarge RUNNING
+t:     120542 job   532 on #12 of server xlarge COMPLETED
+t:     121188 job   533 (running) on #13 of server xlarge (active) SCHEDULED
+t:     121188 job   533 on #13 of server xlarge RUNNING
+t:     121249 job   533 on #13 of server xlarge COMPLETED
+t:     121381 job   469 on #11 of server xlarge COMPLETED
+t:     121870 job   534 (running) on #12 of server xlarge (active) SCHEDULED
+t:     121870 job   534 on #12 of server xlarge RUNNING
+t:     121991 job   534 on #12 of server xlarge COMPLETED
+t:     122494 job   535 (running) on #12 of server xlarge (active) SCHEDULED
+t:     122494 job   535 on #12 of server xlarge RUNNING
+t:     122521 job   535 on #12 of server xlarge COMPLETED
+t:     123202 job   536 (running) on #13 of server xlarge (active) SCHEDULED
+t:     123202 job   536 on #13 of server xlarge RUNNING
+t:     123533 job   537 (running) on # 3 of server large (active) SCHEDULED
+t:     123533 job   537 on # 3 of server large RUNNING
+t:     124266 job   538 (running) on #12 of server xlarge (active) SCHEDULED
+t:     124266 job   538 on #12 of server xlarge RUNNING
+t:     124778 job   538 on #12 of server xlarge COMPLETED
+t:     125017 job   539 (running) on #12 of server xlarge (active) SCHEDULED
+t:     125017 job   539 on #12 of server xlarge RUNNING
+t:     125291 job   492 on #14 of server xlarge COMPLETED
+t:     125382 job   540 (running) on #12 of server xlarge (active) SCHEDULED
+t:     125382 job   540 on #12 of server xlarge RUNNING
+t:     125542 job   539 on #12 of server xlarge COMPLETED
+t:     125721 job   540 on #12 of server xlarge COMPLETED
+t:     125725 job   541 (running) on #12 of server xlarge (active) SCHEDULED
+t:     125725 job   541 on #12 of server xlarge RUNNING
+t:     125742 job   541 on #12 of server xlarge COMPLETED
+t:     125848 job   542 (running) on #10 of server xlarge (active) SCHEDULED
+t:     125848 job   542 on #10 of server xlarge RUNNING
+t:     125871 job   461 on # 2 of server large COMPLETED
+t:     125988 job   543 (running) on #10 of server xlarge (active) SCHEDULED
+t:     125988 job   543 on #10 of server xlarge RUNNING
+t:     126056 job   543 on #10 of server xlarge COMPLETED
+t:     126286 job   544 (running) on #10 of server xlarge (active) SCHEDULED
+t:     126286 job   544 on #10 of server xlarge RUNNING
+t:     126937 job   545 (running) on # 2 of server large (active) SCHEDULED
+t:     126937 job   545 on # 2 of server large RUNNING
+t:     126950 job   546 (running) on #12 of server xlarge (active) SCHEDULED
+t:     126950 job   546 on #12 of server xlarge RUNNING
+t:     126978 job   544 on #10 of server xlarge COMPLETED
+t:     126979 job   545 on # 2 of server large COMPLETED
+t:     127040 job   546 on #12 of server xlarge COMPLETED
+t:     127471 job   404 on # 7 of server xlarge COMPLETED
+t:     127472 job   547 (running) on #10 of server xlarge (active) SCHEDULED
+t:     127472 job   547 on #10 of server xlarge RUNNING
+t:     127588 job   547 on #10 of server xlarge COMPLETED
+t:     128305 job   548 (running) on # 2 of server large (active) SCHEDULED
+t:     128305 job   548 on # 2 of server large RUNNING
+t:     128992 job   549 (running) on #10 of server xlarge (active) SCHEDULED
+t:     128992 job   549 on #10 of server xlarge RUNNING
+t:     129007 job   549 on #10 of server xlarge COMPLETED
+t:     129161 job   548 on # 2 of server large COMPLETED
+t:     129693 job   550 (running) on #10 of server xlarge (active) SCHEDULED
+t:     129693 job   550 on #10 of server xlarge RUNNING
+t:     129733 job   550 on #10 of server xlarge COMPLETED
+t:     130333 job   445 on #12 of server xlarge COMPLETED
+t:     131899 job   529 on #12 of server xlarge COMPLETED
+t:     134176 job   427 on #10 of server xlarge COMPLETED
+t:     144564 job   493 on #15 of server xlarge COMPLETED
+t:     144964 job   526 on #16 of server xlarge COMPLETED
+t:     147599 job   501 on #16 of server xlarge COMPLETED
+t:     151178 job   494 on # 3 of server xlarge COMPLETED
+t:     154506 job   542 on #10 of server xlarge COMPLETED
+t:     161681 job   536 on #13 of server xlarge COMPLETED
+t:     200790 job   108 on # 3 of server large COMPLETED
+t:     251724 job    57 on # 2 of server large COMPLETED
+t:     258679 job   400 on # 0 of server medium COMPLETED
+t:     281550 job    35 on # 0 of server medium COMPLETED
+t:     424977 job   463 on #13 of server xlarge COMPLETED
+t:     501053 job   392 on # 8 of server xlarge COMPLETED
+t:     593156 job   537 on # 3 of server large COMPLETED
+t:     646659 job   373 on # 2 of server xlarge COMPLETED
+t:     658693 job   337 on # 0 of server xlarge COMPLETED
+t:     659892 job   452 on #13 of server xlarge COMPLETED
+t:     723374 job   510 on #15 of server xlarge COMPLETED
+t:     758211 job   499 on # 5 of server large COMPLETED
+t:     765424 job   486 on #11 of server xlarge COMPLETED
+t:     779679 job   282 on #12 of server xlarge COMPLETED
+t:     780509 job   128 on # 8 of server xlarge COMPLETED
+t:     806726 job   140 on # 5 of server large COMPLETED
+t:     919995 job   258 on # 3 of server xlarge COMPLETED
+t:    1007344 job   369 on # 0 of server xlarge COMPLETED
+# ---------------------------------------------------------------------------
+# 1 tiny servers used with a utilisation of 100.00 at the cost of $0.00
+# 0 small servers used with a utilisation of 0.00 at the cost of $0.00
+# 1 medium servers used with a utilisation of 92.92 at the cost of $31.27
+# 7 large servers used with a utilisation of 37.71 at the cost of $809.47
+# 17 xlarge servers used with a utilisation of 36.13 at the cost of $7463.07
+# =============================== [ Overall ] ===============================
+# actual simulation end time: 1007344
+# total #servers used: 26, avg utilisation: 41.19 and total cost: $8303.81
+# avg waiting time: 3, avg exec time: 20121 and avg turnaround time: 20125

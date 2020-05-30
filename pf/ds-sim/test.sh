@@ -1,6 +1,6 @@
 #!/bin/bash
 # to kill multiple runaway processes, use 'pkill runaway_process_name'
-# For the Java implementation, use the following format: ./tests1.sh your_client.class [-n]
+# For the Java implementation, use the following format: ./test.sh your_client.class [-n]
 configDir="./configs"
 diffLog="diff.log"
 if [ ! -d $configDir ]; then
@@ -13,7 +13,7 @@ if [ -f $configDir/$diffLog ]; then
 fi
 
 if [ $# -lt 2 ]; then
-	echo "Usage: $0 your_client [ff|bf|wf|pf]"
+	echo "Usage: $0 your_client [pf]"
 	exit
 fi
 
